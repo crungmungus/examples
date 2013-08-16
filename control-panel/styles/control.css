@@ -1,0 +1,11 @@
+label {
+	vertical-align: top;
+}
+
+select {
+	min-width: 200px;
+}
+
+a { 
+	display : block;
+}
