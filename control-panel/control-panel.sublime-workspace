@@ -19,6 +19,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1000,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1218,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/s3",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/control.css",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -44,6 +76,14 @@
 	},
 	"file_history":
 	[
+		"/E/full/scripts/app.js",
+		"/C/Users/jgardner/.ssh/id_rsa2.pub",
+		"/C/Users/jgardner/.ssh/id_rsa.pub",
+		"/E/full/index.html",
+		"/C/git/examples/control-panel/scripts/data/merchants.js",
+		"/C/git/examples/control-panel/styles/control.css",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/RelatedMerchants.js",
+		"/C/git/examples/control-panel/scripts/dummy.js",
 		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/banners.less",
 		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/index.html",
 		"/D/src/head-js/index.html",
@@ -70,8 +110,6 @@
 		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/scripts/desktop/offer.js",
 		"/D/src/landing pages/index.html",
 		"/D/src/landing pages/styles/campaign-landing-page.less",
-		"/E/full/scripts/app.js",
-		"/E/full/index.html",
 		"/E/full/styles/main.css",
 		"/D/src/offers/index.html",
 		"/D/src/offers/scripts/happy.js",
@@ -165,13 +203,7 @@
 		"/C/JavaScript",
 		"/D/src/holding pages/styles/holding.min.css",
 		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.2.0.0/styles/desktop/less-external-build/global.less",
-		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.2.0.1/styles/mobile/global.less",
-		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Resources/ResxShared.fr.resx",
-		"/C/Users/jgardner/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2013_06_27_10_09_46_8995/fb80a372-206a-49c1-a2b9-54b7e97d4f4c/common.min.js",
-		"/C/Users/jgardner/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2013_06_27_10_09_46_8995/eefc1ce6-5049-4821-b3be-b7509dc0a515/common.min.js",
-		"/D/src/head-js/scripts/track.js",
-		"/D/src/head-js/scripts/main.js",
-		"/D/src/head-js/scripts/tracking.js"
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.2.0.1/styles/mobile/global.less"
 	],
 	"find":
 	{
@@ -406,8 +438,113 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								930,
+								930
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 1218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								915,
+								915
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/s3",
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/control.css",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
