@@ -1,0 +1,12 @@
+After key threshold is met
+	Query server for matching contacts.
+		if a match is found, display it below the input and make it selectable.
+			(ideally the returned result set should be limited)
+			when selected, the proper contact name is appended to the text box and
+			the id of the selected contact is saved. 
+
+			Once the user presses save, the form is validated and if complete sent
+			back to the API for creation.
+
+		if no match is found, provide a 'create contact' link which when pressed
+		displays a sub-form below the current or alternatively show a different dialog.

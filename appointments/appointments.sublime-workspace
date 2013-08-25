@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"C",
+				"Contacts"
+			],
+			[
+				"Contact",
+				"ContactViewCtrl"
+			],
+			[
+				"Con",
+				"ContactEditCtrl"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"Address",
+				"AddressController"
+			],
+			[
+				"Add",
+				"AddressController"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"get",
+				"getFeedByHashtag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13677,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin/Documents/code/thorax-seed/templates/appointments/index.handlebars",
+		"/C/Users/admin/Documents/code/thorax-seed/lumbar.json",
+		"/C/Users/admin/Documents/code/thorax-seed/README.md",
+		"/C/Users/admin/Documents/code/sourapple/source/_posts/2013-08-13-why-octopress.markdown",
+		"/C/Users/admin/Documents/code/posts/octopress-why",
+		"/C/Users/admin/Documents/code/git/examples/feeds/public/scripts/templates/index.html",
+		"/C/Users/admin/Documents/code/feeds/public/scripts/feeds.js",
+		"/C/Users/admin/Documents/code/feeds/public/scripts/templates/index.html",
+		"/C/Users/admin/Documents/code/git/examples/feeds/public/scripts/feeds.js",
+		"/C/Users/admin/Documents/code/feeds/package.json",
+		"/C/Users/admin/Documents/code/full/scripts/app.js",
+		"/C/Users/admin/Documents/code/feeds/views/index.jade",
+		"/C/Users/admin/Documents/code/feeds/views/layout.jade",
+		"/C/Users/admin/Documents/code/full/index.html",
+		"/C/Users/admin/Documents/code/feeds/app.js",
+		"/C/Users/admin/Documents/code/feeds/routes/index.js",
+		"/C/Users/admin/Documents/code/address/scripts/app.js",
+		"/C/Users/admin/Documents/code/feeds/public/styles/main.css",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/admin/Documents/code/address/index.html",
+		"/C/Users/admin/Documents/code/full/styles/main.css",
+		"/C/Users/admin/Documents/code/address/styles/main.css",
+		"/C/Users/admin/Documents/code/address/scripts/store.js",
+		"/C/Users/admin/Documents/code/address/scripts/localstorage.js",
+		"/C/Users/admin/Documents/code/address/scripts/contacts.js",
+		"/C/Users/admin/Documents/code/grunt/gruntfile.js",
+		"/C/Users/admin/Documents/code/grunt/package.json",
+		"/C/Users/admin/Documents/code/blog/source/_posts/2013-07-10-frontend-workflows-part-1.markdown",
+		"/C/Users/admin/Documents/code/blog/.git/config",
+		"/C/Users/admin/Documents/code/headjs/test/unit/index.html",
+		"/C/Users/admin/Documents/code/headjs/test/unit/test.load.js",
+		"/C/Users/admin/Documents/code/headjs/src/load.js",
+		"/C/Users/admin/Documents/code/blog/source/_posts/2013-07-10-javascript-workflows-part-1.markdown",
+		"/E/part 1",
+		"/C/Users/admin/Documents/code/sourapple/source/_posts/2013-07-10-frontend-workflows-part-1.markdown",
+		"/C/Users/admin/Documents/code/sourapple/sass/custom/_styles.scss",
+		"/C/Users/admin/Documents/code/blog/sass/_base.scss",
+		"/C/Users/admin/Documents/code/blog/sass/base/_layout.scss",
+		"/C/Users/admin/Documents/code/blog/sass/screen.scss",
+		"/C/Users/admin/Documents/code/blog/sass/custom/_styles.scss",
+		"/C/Users/admin/Documents/JavaScript Development Workflow 2013",
+		"/C/Users/admin/Documents/JavaScript Workflow",
+		"/C/Users/admin/Documents/code/blog/source/_posts/2013-07-09-my-javascriot-workflow-part-1.markdown",
+		"/E/build/Gruntfile.js",
+		"/C/Users/admin/Documents/code/blog/sass/base/_typography.scss",
+		"/C/Users/admin/Documents/code/blog/_config.yml",
+		"/C/Users/admin/Documents/code/blog/source/_includes/head.html",
+		"/C/Users/admin/Documents/code/blog/source/_includes/footer.html",
+		"/C/Users/admin/Documents/code/blog/source/_includes/custom/footer.html",
+		"/C/Users/admin/Documents/code/blog/sass/partials/_header.scss",
+		"/C/Users/admin/Documents/code/knockout/index.html",
+		"/C/Users/admin/Documents/code/reveal/app.js",
+		"/C/Users/admin/Desktop/voucher/index.html",
+		"/E/prototypes/giftcloud/index.html",
+		"/E/prototypes/giftcloud/edit-details.html",
+		"/E/prototypes/giftcloud/login.html",
+		"/E/prototypes/giftcloud/redeem-online.html",
+		"/E/prototypes/giftcloud/forgot-password.html",
+		"/E/prototypes/giftcloud/sign-up.html",
+		"/E/prototypes/giftcloud/css/less/layout.less",
+		"/E/prototypes/giftcloud/css/less/ui.less",
+		"/E/prototypes/giftcloud/css/less/facebook.less",
+		"/E/prototypes/giftcloud/login-email.html",
+		"/E/prototypes/giftcloud/css/less/forms.less",
+		"/E/prototypes/giftcloud/css/less/media.less",
+		"/E/prototypes/modules/links.html",
+		"/E/initializr/css/main.css",
+		"/C/Users/admin/Documents/code/live-results/index.html",
+		"/C/Users/admin/Documents/code/reveal/mathr.txt",
+		"/C/Users/admin/Documents/code/reveal/routes/user.js",
+		"/C/Users/admin/Documents/code/responsive/public/css/main.css",
+		"/C/Users/admin/Documents/code/responsive/public/index.html",
+		"/C/Users/admin/Documents/code/smacss.notes.txt",
+		"/C/Users/admin/Documents/code/live-results/css/main.css",
+		"/C/Users/admin/Documents/code/live-results/js/main.js",
+		"/C/xampp/htdocs/live-results/crossdomain.xml",
+		"/C/Users/admin/Documents/code/live-results/crossdomain.xml",
+		"/C/Users/admin/Documents/code/live-results/js/data.js",
+		"/C/Users/admin/Documents/code/js-interview/creation.html",
+		"/C/Users/admin/Documents/code/js-assessment/tests/app/arrays.js",
+		"/C/Users/admin/Documents/code/js-assessment/app/arrays.js",
+		"/C/Users/admin/Documents/code/js-interview/index.html",
+		"/C/mongo/bin/reveal.posts.json",
+		"/C/Users/admin/Documents/code/reveal/views/layout.jade",
+		"/C/Users/admin/Documents/code/reveal/views/index.jade",
+		"/C/Users/admin/Documents/code/reveal/package.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"index",
+			"{\n",
+			"FeedCtrl",
+			"DashboardCtrl",
+			"ng-click",
+			"form",
+			"Contacts",
+			"save",
+			"url",
+			"save",
+			"></input>",
+			"edit",
+			"routeParams",
+			"ng-href",
+			".controller",
+			"Contacts",
+			"route",
+			"Contacts",
+			"$scope.contact",
+			"_detail_ctrl",
+			"DetailCtrl",
+			"ctrl",
+			"_view",
+			"$scope.contacts",
+			"DetailCtrl",
+			"view",
+			"edit",
+			"active",
+			"novalidate",
+			"*/\n",
+			"person",
+			"people",
+			"\n      ",
+			"function load",
+			"ul",
+			"markup",
+			"I",
+			".sign-up",
+			"#reset",
+			".forgot",
+			"friend",
+			".intro",
+			"%;\n",
+			":before",
+			".error",
+			".sign",
+			"form-",
+			".voucher",
+			"content",
+			".banner",
+			".form",
+			");\n",
+			"button",
+			" utton",
+			"nav",
+			"%",
+			"font-size",
+			"%;\n",
+			"media",
+			"2px",
+			"li",
+			"160",
+			"2px",
+			"span",
+			"city",
+			"city-select",
+			"top"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ChannelCtrl",
+			"FeedCtrl",
+			"edit",
+			"Storage",
+			" />",
+			"contact",
+			"contacts",
+			"small",
+			"type",
+			"city"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2092,
+								2092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true
+}
