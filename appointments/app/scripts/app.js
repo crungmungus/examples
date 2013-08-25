@@ -1,16 +1,10 @@
 define([
-	'views/appView',
-	'collections/aptCollection'
+	'views/AppView'
 ], 
-function (AppView, AptCollection) {
+function (AppView) {
   var App = function () {
-  	var view, collection = new AptCollection();
-
-  	view = new AppView({
-  		collection : collection
-  	});
-  	
-  	view.render();
+  	var view = new AppView();
+  	    view.render();
   };
 
   return App;

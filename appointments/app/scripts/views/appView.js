@@ -1,20 +1,20 @@
-define(['views/appDialog'], function(AppDialog) {
-  var AppView = Backbone.View.extend({
-    el: '#calendar',
+define(['library/BaseView', 'views/CalendarView'], function(BaseView, CalendarView) {
+  /**
+   * Main Application View.
+   * Makes use of 'assign' helper to delegate subviews to regions (via selector).
+   * Look at beefing this up with Marionette's 'Layout Manager' and 'Regions' as there 
+   * are some great performance benefits to be reaped from there.
+   */
+  var AppView = BaseView.extend({
+    el: 'body',
 
     initialize : function () {
-      _.bindAll(this, 'create', 'addAll');
-
-      this.collection.bind('reset', this.addAll);
-      this.collection.fetch({
-        reset: true
-      });
-
-      this.dialog = new AppDialog();
+      this.agenda = new CalendarView();
     },
 
+    /*
     create : function (startDate, endDate) {
-      this.dialog.render(startDate, endDate);
+      console.log(this.dialog.render(startDate, endDate).el);
     },
 
     addAll : function () {
@@ -26,13 +26,9 @@ define(['views/appDialog'], function(AppDialog) {
       
       this.$el.fullCalendar('addEventSource', data);
     },
-
+*/
     render : function () {
-      this.$el.fullCalendar({
-        defaultView: 'agendaWeek',
-        selectable: true,
-        select: this.create
-      });
+      this.assign(this.agenda, '#calendar');
 
       return this;
     }
