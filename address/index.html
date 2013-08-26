@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="contacts">
+  <head lang="en">
+    <meta charset="utf-8">
+    <title>Address Book</title>
+    <script src="scripts/vendor/angular.js"></script>
+    <script src="scripts/app.js"></script>  
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1>Address Book</h1>
+      </nav>
+      <div ng-view></div>
+    </div>
+
+    <!-- List View Template -->
+    <script type="text/ng-template" id="list.html">
+      <ul class="contact-list">
+        <li ng-repeat="contact in contacts | orderBy:'lastName' ">
+          <a ng-href="#/contact/view/{{contact.uid}}" class="contact">
+            <span class="name">{{contact.firstName}} {{contact.lastName}}</span><span class="phone">{{contact.phone}}</span>
+          </a>
+        <li>
+      </ul>
+    </script>
+
+    <!-- Contact View Tempate -->
+    <script type="text/ng-template" id="view.html">
+      <div class="contact-view" ng-controller="app.ContactEditCtrl">
+        <h2>{{contact.firstName}} {{contact.lastName}}</h2>
+        <dl>
+          <dt>Address:</dt>
+          <dd>{{contact.address}}</dd>
+          <dt>City:</dt>
+          <dd>{{contact.city}}</dd>
+          <dt>Zip:</dt>
+          <dd>{{contact.zip}}</dd>
+          <dt>Country:</dt>
+          <dd>{{contact.country}}</dd>
+          <dt>Phone Number:</dt>
+          <dd>{{contact.phone}}</dd>
+          <dt>Email:</dt>
+          <dd>{{contact.email}}</dd>
+        </dl>
+        <div class="buttons">
+          <a href="#/" class="button">back</a>
+          <a href="#/contact/edit/{{contact.uid}}" class="button">edit</a>
+          <button ng-click="delete()" class="button">delete</button>
+        </div>
+      </div>         
+    </script>
+    
+    <!-- Edit View Template -->
+    <script type="text/ng-template" id="edit.html">
+    <div class="contact-view">
+      <form name="edit" novalidate>
+        <div class="input-group">
+          <label for="first-name">First Name: </label>
+          <input type="text" name="first-name" ng-model="contact.firstName" value="{{contact.firstName}}" required />
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last Name: </label>
+          <input type="text" name="last-name" ng-model="contact.lastName" value="{{contact.lastName}}" required />
+
+        <div class="input-group">
+          <label for="address">Address: </label>
+          <input type="text" name="address" ng-model="contact.address" value="{{contact.address}}"  />
+        </div>
+
+        <div class="input-group">
+          <label for="city">City: </label>
+          <input type="text" name="city" ng-model="contact.city" value="{{contact.city}}"  />
+        </div>
+
+        <div class="input-group">
+          <label for="zip">Zip Code: </label>
+          <input type="text" name="zip" ng-model="contact.zip" value="{{contact.zip}}"  />
+        </div>
+
+        <div class="input-group">
+          <label for="country">Country: </label>
+          <input type="text" name="country" ng-model="contact.country" value="{{contact.country}}"  />
+        </div>
+
+        <div class="input-group">
+          <label for="phone">Phone Number: </label>
+          <input type="text" name="phone" ng-model="contact.phone" value="{{contact.phone}}"  />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email: </label>
+          <input type="email" name="email" ng-model="contact.email" value="{{contact.email}}"  />
+        </div>
+
+        <input type="hidden" name="uid" value="{{contact.uid}}" />
+        <div class="buttons">
+          <a class="button" ng-class="{disabled: edit.$invalid}" ng-click="save(contact)">Save</a>
+        </div>
+      </form>
+    </div>
+    </script>
+  </body>
+</html>
