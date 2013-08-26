@@ -3,8 +3,11 @@ define([
 ], 
 function (AppView) {
   var App = function () {
-  	var view = new AppView();
-  	    view.render();
+  	var view, vent = _.extend({}, Backbone.Events);
+
+  	view = new AppView({
+  		vent : vent
+  	}).render();
   };
 
   return App;

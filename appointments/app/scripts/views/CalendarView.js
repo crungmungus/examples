@@ -3,7 +3,12 @@
  * Makes use of the 'Full Calendar' plugin for jQuery so normal events and renders are handled
  * internally by that.
  */
-define(['collections/EventCollection', 'views/EventDialog'], function(EventCollection, EventDialog) {
+define([
+  'collections/EventCollection', 
+  'collections/ContactCollection',
+  'views/EventDialog'
+], 
+function(EventCollection, ContactCollection, EventDialog) {
   var CalendarView = Backbone.View.extend({
     initialize : function () {
       _.bindAll(this, 'onTimeSlotSelect', 'addOne','addAll');
@@ -11,13 +16,16 @@ define(['collections/EventCollection', 'views/EventDialog'], function(EventColle
       this.collection = new EventCollection();
       this.collection.bind('reset', this.addAll);
       this.collection.bind('add', this.addOne);
-
+      
       this.collection.fetch({
         reset : true
       });
 
+      this.vent = this.options.vent;
+
       this.dialog = new EventDialog({
-        collection : this.collection
+        collection : this.collection,
+        vent : this.vent
       });
     },
 
@@ -45,6 +53,7 @@ define(['collections/EventCollection', 'views/EventDialog'], function(EventColle
     render : function () {
       this.$el.fullCalendar({
         defaultView: 'agendaWeek',
+        allDaySlot:false,
         selectable: true,
         select: this.onTimeSlotSelect
       });

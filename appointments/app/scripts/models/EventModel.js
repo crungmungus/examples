@@ -2,11 +2,9 @@
   var AptModel = Backbone.Model.extend({
   	defaults : {
       'contact_id': null,
-      'created_at': moment().toISOString(),
       'duration': 0,
       'note': null,
       'start_time': null,
-      'updated_at': moment().toISOString()
     },
 
   	// Lazy helper to keep my view logic clean.

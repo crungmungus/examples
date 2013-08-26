@@ -1,3 +1,5 @@
+/**
+ */
 define(['models/EventModel'], function (EventModel) {
   var AptCollection = Backbone.Collection.extend({
     model: EventModel,

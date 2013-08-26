@@ -14,7 +14,7 @@ requirejs.config({
     },
     'vendor/fullcalendar.min': {
       exports: 'fullCalendar'
-    },
+    },   
     'vendor/bootstrap.min': {
       exports: 'bootstrap'
     },

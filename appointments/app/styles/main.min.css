@@ -1,0 +1,1 @@
+.search input[type='text']{border-bottom-left-radius:0}.search button{border-bottom-right-radius:0;border-left:0}#results{max-height:145px;overflow:auto;list-style:none;padding:0;border:1px solid #ccc;border-top:0;border-bottom:0;margin-top:-1px}#results li{border-bottom:1px solid #ccc;padding:4px 10px}.btn-primary.right{float:right}.alert{padding:10px}

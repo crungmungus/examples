@@ -9,26 +9,12 @@ define(['library/BaseView', 'views/CalendarView'], function(BaseView, CalendarVi
     el: 'body',
 
     initialize : function () {
-      this.agenda = new CalendarView();
+      this.vent = this.options.vent;
+      this.agenda = new CalendarView({ vent : this.vent});
     },
 
-    /*
-    create : function (startDate, endDate) {
-      console.log(this.dialog.render(startDate, endDate).el);
-    },
-
-    addAll : function () {
-      var data = [];
-
-      this.collection.each(function (evt) {
-        data.push(evt.getPushObject());
-      });
-      
-      this.$el.fullCalendar('addEventSource', data);
-    },
-*/
     render : function () {
-      this.assign(this.agenda, '#calendar');
+      this.assign(this.agenda, '#calendar', this.vent);
 
       return this;
     }
