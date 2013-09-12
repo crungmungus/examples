@@ -37,7 +37,7 @@ var EventRouter = Backbone.SubRoute.extend({
 // In the real world the main router would decide which sub-router to invoke.
 var Router = Backbone.Router.extend({
   routes : {
-    'events/*subroute' : 'invokeEventsModule'
+    'events/' : 'invokeEventsModule'
   },
  
   invokeEventsModule : function (subroute) {
@@ -45,4 +45,5 @@ var Router = Backbone.Router.extend({
   }
 });
 
-new Router();
+var router = new Router();
+Backbone.history.start();
