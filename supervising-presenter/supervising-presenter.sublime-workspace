@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"phone",
+				"phoneNumber"
+			],
+			[
+				"new",
+				"newClinicContact"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"Event",
+				"EventCollection"
+			],
+			[
 				"dire",
 				"directHit"
 			]
@@ -11,22 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 661,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/library/marionette.controller.js",
-			"settings":
-			{
-				"buffer_size": 735,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,12 +52,23 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.html",
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.js",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-select-view.js",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/demos/index-prototypal-inheritance.html",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/patterns/jquery.prototypal-inheritance.plugin-boilerplate.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app/templates/event-dialog.html",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CalendarView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CreateEventView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/searchView.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.controller.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/index.html",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/EventDialog.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.application.js",
 		"/C/Users/admin/Documents/GitHub/idiomatic.js/readme.md",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/calendar/appointment-from-select-template.html",
-		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/calendar-common.less",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/index.html",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app.js"
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/calendar-common.less"
 	],
 	"find":
 	{
@@ -75,6 +86,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this.selected =",
+			"isNull",
+			"onContactSel",
+			"template",
+			"contactsel",
+			"phone",
+			"li>",
+			"li",
+			"clear.",
+			"addClass('sele",
+			"addClass('sel",
+			"addClass",
+			"contactValuechanged",
+			"contactValueChanged",
+			"this.model =",
+			"pp.utils.populateReminder",
+			"utils",
+			"newClinicContact",
+			"model",
+			"onSave",
+			"onToggleComplete",
+			"toggleContactMode",
+			"store",
+			"contactValueChanged",
+			"this.contactValueChanged();",
+			"contactValueChanged",
+			"contactchanged",
+			"_this",
+			"contactValueChanged",
+			"select2",
+			"onSaveOk",
+			".val",
+			"build",
 			"var input",
 			"#name",
 			"toggleContactMode",
@@ -97,65 +141,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 661,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								570,
-								570
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/library/marionette.controller.js",
-					"settings":
-					{
-						"buffer_size": 735,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								512,
-								512
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -165,7 +152,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -215,6 +202,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true
 }
