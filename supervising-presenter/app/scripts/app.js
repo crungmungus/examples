@@ -59,7 +59,7 @@ var Router = Backbone.Router.extend({
 var EventRouter = Backbone.SubRoute.extend({
   initialize: function () {
     this.supervisor = new EventCreatePresenter({ 
-      view : new EventCreateView(),
+      view    : new EventCreateView(),
       service : new EventCreateService()
     });
   }
