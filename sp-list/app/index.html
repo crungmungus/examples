@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Example Component 1.0</title>
+    <link rel="stylesheet" href="styles/main.min.css" type="text/css" />
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />    
+  </head>
+  <body>
+    <form id="form">
+      <div id="status" style="display: none">Saving ...</div>
+
+      <label for="name">Treatment Name</label>
+      <input type="text" id="name" name="name" />
+      <button id="save">Save</button>
+    </form>    
+
+    <div id="list"></div>
+    
+    <!-- Framework Dependencies -->
+  	<script src="scripts/vendor/jquery-1.10.2.min.js"></script>
+    <script src="scripts/vendor/underscore-min.js"></script>
+  	<script src="scripts/vendor/backbone-min.js"></script>
+
+    <!-- Dummy Data -->
+    <script src="scripts/dummy/clinicTypes.js"></script>
+   
+    <!-- Library Dependencies -->
+    <script src="scripts/library/marionette/backbone.marionette.js"></script>
+    <script src="scripts/library/backbone.subroute.js"></script>
+    <script src="scripts/library/backbone.stickit.js"></script>        
+
+    <!-- Example Artefacts -->
+
+
+    <!-- Bootstrap -->
+  	<script src="scripts/app.js"></script>
+  </body>
+</html>

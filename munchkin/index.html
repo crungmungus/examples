@@ -1,44 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="contacts">
+<html>
   <head lang="en">
     <meta charset="utf-8">
     <title>Munchkin</title>    
     <script src="jquery-1.10.2.min.js"></script>  
     <script src="munchkin.js"></script>  
-    <style>
-    	.selected {
-    		background-color: red;
-    	}
-    </style>
   </head>
-  <body>
-  	<div id="search">
-  		<input type="text" name="search" />
-  		<ul class="results">
-  			<li>Result 1</li>
-  			<li>Result 2</li>
-  			<li>Result 3</li>
-  			<li>Result 4</li>
-  			<li>Result 5</li>
-  			<li>Result 6</li>
-  			<li>Result 7</li>
-  			<li>Result 8</li>
-  		</ul>
-  	</div>
-  	<script>
-  		var counter = 0, results = $('.results > li');
-
-  		$('body').on('keyup', function (e) {
-			var k = e.which;
-  			if(k > 36 && k < 41) {
-  				console.log(counter);
-  				if(k === 40) { 					
-  					++counter;	
-  				} else if(k === 38) {
-  					--counter;
-  				}  				
-  			}
-  		});
-  	</script>
-  </body>
+  <body></body>
  </html>

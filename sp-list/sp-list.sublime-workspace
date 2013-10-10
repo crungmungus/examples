@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pro",
+				"Procedure"
+			],
+			[
+				"C",
+				"ClinicType"
+			],
+			[
+				"phone",
+				"phoneNumber"
+			],
+			[
+				"new",
+				"newClinicContact"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"Event",
+				"EventCollection"
+			],
+			[
+				"dire",
+				"directHit"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/**\n  Goals.\n  1) The domain logic does not depend on the UI layer or the backend.\n  2) There is only one place where all the components are created and wired up.\n  3) The application comprises lots of small components, each of which does only one thing (Views, Supervisors, Use Cases etc.)\n  4) An object either makes decisions or executes somebody else’s decisions\n  5) All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.\n  6) Components depend on protocols rather than on concrete implementations.\n\n  I have a rule of thumb that helps me to decide what goes where - whatever I am happy to leave untested goes into the view.\n*/\n\n// Models.\nvar Treatment  = Backbone.Model.extend({});\nvar ClinicType = Backbone.Model.extend({});\nvar Procedure  = Backbone.Model.extend({});\n\n// Collections.\nvar Treatments = Backbone.Collection.extend({\n  model : Treatment\n});\n\nvar ClinicTypes = Backbone.Collection.extend({\n  model : ClinicType\n});\n\nvar Procedures = Backbone.Collection.extend({\n  model : Procedure\n});\n\n// Main View.\n// Declarative/simple bindings are handled by the view\nvar ListView = Backbone.View.extend({\n  initialize : function () {\n    this.listenTo();\n  }\n});\n\nvar ItemView = Backbone.View.extend({\n  events { \n    'click li' : function () {\n      this.trigger('selected');  \n    }\n  },\n  \n  render : function () {\n\n  }  \n});\n\n// Supervising Presenters. \n// Imperative/complicated bindings are handled by the presenter\nvar ListPresenter = Marionette.Controller.extend({\n  // All the dependencies are injected and, therefore, can be mocked up.  \n});\n\n// Use Case Services.\n// 5. All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.\nvar TreatmentCreateService = function () {\n\n}\n\n// Startup.\n// 2. There is only one place where all the components are created and wired up.\nvar app = new ListPresenter({\n  view : new Listview()\n});",
+			"file": "app/scripts/app.js",
+			"file_size": 2024,
+			"file_write_time": 130258762880218896,
+			"settings":
+			{
+				"buffer_size": 1972,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "The domain logic of the application is separate from the delivery mechanism. In other words, the domain logic does not depend on the UI layer or the backend.\n\nThe initialization of the application is separate from its execution. There is only one place where all the components are created and wired up.\n\nThe application comprises lots of small components, each of which does only one thing. That is to say every component adheres to the single responsibility principle.\n\nCoordination and computation are separate. This is probably the most fundamental principle of software development. It says that an object either makes decisions or executes somebody else’s decisions.\n\nAll interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code. If there is an acceptance criterion describing some UI interaction, there should be a file and an object responsible for performing that interaction. By the same token, if there is a use case describing some domain interaction, there should be an object executing it.\n\nComponents depend on protocols rather than on concrete implementations. So it is possible to change the implementation of a component, or even replace it, without changing anything else as long as the protocol stays the same.",
+			"settings":
+			{
+				"buffer_size": 1287,
+				"line_ending": "Windows",
+				"name": "The domain logic of the application is separate fr"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1652,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.html",
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-select-view.js",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/demos/index-prototypal-inheritance.html",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/patterns/jquery.prototypal-inheritance.plugin-boilerplate.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app/templates/event-dialog.html",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CalendarView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CreateEventView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/searchView.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.controller.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/index.html",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/EventDialog.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.application.js",
+		"/C/Users/admin/Documents/GitHub/idiomatic.js/readme.md",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/calendar/appointment-from-select-template.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/calendar-common.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.selected =",
+			"isNull",
+			"onContactSel",
+			"template",
+			"contactsel",
+			"phone",
+			"li>",
+			"li",
+			"clear.",
+			"addClass('sele",
+			"addClass('sel",
+			"addClass",
+			"contactValuechanged",
+			"contactValueChanged",
+			"this.model =",
+			"pp.utils.populateReminder",
+			"utils",
+			"newClinicContact",
+			"model",
+			"onSave",
+			"onToggleComplete",
+			"toggleContactMode",
+			"store",
+			"contactValueChanged",
+			"this.contactValueChanged();",
+			"contactValueChanged",
+			"contactchanged",
+			"_this",
+			"contactValueChanged",
+			"select2",
+			"onSaveOk",
+			".val",
+			"build",
+			"var input",
+			"#name",
+			"toggleContactMode",
+			"onContactSelected",
+			"popover"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 1972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								229
+							]
+						],
+						"settings":
+						{
+							"auto_name": "The domain logic of the application is separate fr",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 1652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/admin/Documents/projects/ava.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true
+}

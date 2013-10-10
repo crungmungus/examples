@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isDecimal"
+			],
+			[
 				"onSa",
 				"onSaveSuccess"
 			],
@@ -22,10 +26,6 @@
 			[
 				"de",
 				"defaultTreatView"
-			],
-			[
-				"is",
-				"isDuplicateTreatment"
 			],
 			[
 				"config",
@@ -235,7 +235,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 960,
+				"buffer_size": 1355,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,7 +243,22 @@
 			"file": "scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 663,
+				"buffer_size": 1397,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/admin/Documents/GitHub/examples/munchkin/index.html",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -272,6 +287,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/examples/munchkin/munchkin.js",
 		"/C/Users/admin/Documents/GitHub/examples/stickit-validate/index.html",
 		"/C/Users/admin/Documents/GitHub/examples/stickit-validate/scripts/app.js",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/treatments/form.html",
@@ -314,7 +330,6 @@
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/models/utils.js",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-sidebar-view-mobile.js",
 		"/C/Users/admin/Documents/GitHub/examples/munchkin/index.html",
-		"/C/Users/admin/Documents/GitHub/examples/munchkin/munchkin.js",
 		"/C/Users/admin/Documents/GitHub/examples/address/index.html",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/staff/staff-list-view.js",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/staff/template-view.js",
@@ -563,15 +578,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 960,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								942,
+								942
 							]
 						],
 						"settings":
@@ -591,15 +606,15 @@
 					"file": "scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 663,
+						"buffer_size": 1397,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								720,
+								720
 							]
 						],
 						"settings":
@@ -607,6 +622,59 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/admin/Documents/GitHub/examples/munchkin/index.html",
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
