@@ -7,7 +7,7 @@
   5) All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.
   6) Components depend on protocols rather than on concrete implementations.
 
-  I have a rule of thumb that helps me to decide what goes where - whatever I am happy to leave untested goes into the view.
+  'I have a rule of thumb that helps me to decide what goes where - whatever I am happy to leave untested goes into the view.'
 */
 
 // Models.
@@ -81,10 +81,7 @@ var ClinicPresenter = Marionette.Controller.extend({
 
     // Example of a complex interaction.
     this.listenTo(this.form, 'save', function (model) {
-      this.service.save(model)
-        .done(function () {
-          // .. do something here.
-        });
+      this.service.save(model, this);
     });
 
     // No layout/parent container right now.
@@ -94,9 +91,12 @@ var ClinicPresenter = Marionette.Controller.extend({
 
 // Use Case/Domain Services.
 // 5. All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.
-var TreatmentModifyService = function () {
-  this.save = function () {
-    return $.Deferred();
+var ClinicModifyService = function () {
+  this.save = function (model, listener) {
+    model.save(model, {
+      success : listener.saveSuccess,
+      error   : listener.saveFailure
+    });
   }
 }
 
@@ -107,5 +107,5 @@ var app = new ClinicPresenter({
     collection : new ClinicTypes(clinicTypes)
   }),
   form : new FormView(),
-  service : new TreatmentModifyService()
+  service : new ClinicModifyService()
 });
