@@ -3,29 +3,42 @@ requirejs.config({
 
   paths: {
     text: 'vendor/text',
-    presenters: 'presenters'
+    presenters: 'app/presenters',
+    routers : 'app/routers',
+    models : 'app/models',
+    collections : 'app/collections',
+    views: 'app/views'
   },
 
   shim: {
+    'vendor/jquery-2.0.3.min': {
+      exports: '$'
+    },
   	'vendor/underscore-min': {
       exports: '_'
     },
-    'vendor/backbone-min': {
+    'vendor/backbone': {
       deps: ['vendor/underscore-min'],
       exports: 'Backbone'
     },
     'library/marionette/backbone.marionette': {
-      deps: ['vendor/backbone-min'],
+      deps: ['vendor/backbone'],
       exports: 'Marionette'
     },
     'library/backbone.stickit' : {
-      deps: ['vendor/backbone-min'] 
+      deps: ['vendor/backbone'] 
+    },
+    'library/backbone.subroute' : {
+      deps: ['vendor/backbone'],
+      exports: 'Backbone.SubRoute'
     },
     'app': {
       deps: [
+        'vendor/jquery-2.0.3.min', 
         'vendor/underscore-min', 
-        'vendor/backbone-min',
+        'vendor/backbone',
         'library/backbone.stickit',
+        'library/backbone.subroute',
         'library/marionette/backbone.marionette'
       ]
     }

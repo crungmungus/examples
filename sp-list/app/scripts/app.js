@@ -1,7 +1,8 @@
 define(function (require) {
-    var ClinicPresenter = require('presenters/ClinicPresenter');
+    var MainRouter = require('routers/main');
 
     return function () {
-    	var c = new ClinicPresenter();
+    	var router = new MainRouter();			
+    	Backbone.history.start();
     };
 });

@@ -9,7 +9,8 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // Register as an AMD module if available...
-        define(['underscore', 'backbone'], factory);
+        //define(['underscore', 'backbone'], factory);
+        factory(_, Backbone);
     } else {
         // Browser globals for the unenlightened...
         factory(_, Backbone);
