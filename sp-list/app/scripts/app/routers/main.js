@@ -2,12 +2,12 @@ define(function (require) {
   var ClinicsRouter = require('routers/clinics');
   
   return Backbone.Router.extend({
-	  routes : {
-			 'clinics/' : 'invokeClinics'   
-	  },
+    routes : {
+       'clinics/' : 'invokeClinics'   
+    },
 
-	  invokeClinics : function () {
-    	new ClinicsRouter('clinics/');
-  	}
-	});
+    invokeClinics : function () {
+      new ClinicsRouter('clinics/');
+    }
+  });
 });
