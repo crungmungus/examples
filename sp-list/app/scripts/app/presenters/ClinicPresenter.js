@@ -7,6 +7,12 @@ define(function (require) {
 			this.view = opts.view;
 			this.form = opts.form;
 			this.collection = opts.collection;		
+			
+			this.listenTo(this.view, 'itemview:selected', this.onClinicSelected);
+		},
+
+		onClinicSelected : function () {
+			
 		}
   });
 });
