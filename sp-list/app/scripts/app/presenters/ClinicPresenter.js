@@ -6,9 +6,7 @@ define(function (require) {
 		initialize : function (opts) {
 			this.view = opts.view;
 			this.form = opts.form;
-			this.collection = opts.collection;
-
-			console.log(this);
+			this.collection = opts.collection;		
 		}
   });
 });
