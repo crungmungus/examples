@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Tr",
+				"TreatmentModifyService"
+			],
+			[
+				"in",
+				"initialize"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"Cl",
+				"ClinicTypes"
+			],
+			[
 				"Pro",
 				"Procedure"
 			],
@@ -36,30 +52,26 @@
 	"buffers":
 	[
 		{
-			"contents": "/**\n  Goals.\n  1) The domain logic does not depend on the UI layer or the backend.\n  2) There is only one place where all the components are created and wired up.\n  3) The application comprises lots of small components, each of which does only one thing (Views, Supervisors, Use Cases etc.)\n  4) An object either makes decisions or executes somebody else’s decisions\n  5) All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.\n  6) Components depend on protocols rather than on concrete implementations.\n\n  I have a rule of thumb that helps me to decide what goes where - whatever I am happy to leave untested goes into the view.\n*/\n\n// Models.\nvar Treatment  = Backbone.Model.extend({});\nvar ClinicType = Backbone.Model.extend({});\nvar Procedure  = Backbone.Model.extend({});\n\n// Collections.\nvar Treatments = Backbone.Collection.extend({\n  model : Treatment\n});\n\nvar ClinicTypes = Backbone.Collection.extend({\n  model : ClinicType\n});\n\nvar Procedures = Backbone.Collection.extend({\n  model : Procedure\n});\n\n// Main View.\n// Declarative/simple bindings are handled by the view\nvar ListView = Backbone.View.extend({\n  initialize : function () {\n    this.listenTo();\n  }\n});\n\nvar ItemView = Backbone.View.extend({\n  events { \n    'click li' : function () {\n      this.trigger('selected');  \n    }\n  },\n  \n  render : function () {\n\n  }  \n});\n\n// Supervising Presenters. \n// Imperative/complicated bindings are handled by the presenter\nvar ListPresenter = Marionette.Controller.extend({\n  // All the dependencies are injected and, therefore, can be mocked up.  \n});\n\n// Use Case Services.\n// 5. All interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code.\nvar TreatmentCreateService = function () {\n\n}\n\n// Startup.\n// 2. There is only one place where all the components are created and wired up.\nvar app = new ListPresenter({\n  view : new Listview()\n});",
-			"file": "app/scripts/app.js",
-			"file_size": 2024,
-			"file_write_time": 130258762880218896,
+			"file": "app/scripts/bungle.js",
 			"settings":
 			{
-				"buffer_size": 1972,
+				"buffer_size": 746,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "The domain logic of the application is separate from the delivery mechanism. In other words, the domain logic does not depend on the UI layer or the backend.\n\nThe initialization of the application is separate from its execution. There is only one place where all the components are created and wired up.\n\nThe application comprises lots of small components, each of which does only one thing. That is to say every component adheres to the single responsibility principle.\n\nCoordination and computation are separate. This is probably the most fundamental principle of software development. It says that an object either makes decisions or executes somebody else’s decisions.\n\nAll interactions and use cases are explicit. Behaviour does not emerge, but instead is explicitly defined in the code. If there is an acceptance criterion describing some UI interaction, there should be a file and an object responsible for performing that interaction. By the same token, if there is a use case describing some domain interaction, there should be an object executing it.\n\nComponents depend on protocols rather than on concrete implementations. So it is possible to change the implementation of a component, or even replace it, without changing anything else as long as the protocol stays the same.",
+			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 1287,
-				"line_ending": "Windows",
-				"name": "The domain logic of the application is separate fr"
+				"buffer_size": 165,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+			"file": "app/scripts/app/presenters/ClinicPresenter.js",
 			"settings":
 			{
-				"buffer_size": 1652,
+				"buffer_size": 139,
 				"line_ending": "Windows"
 			}
 		}
@@ -88,7 +100,21 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/MainLayout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/ClinicPresenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/services/ClinicCreateService.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/models/ClinicModel.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/collections/ClinicCollection.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/boot.js",
 		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
+		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.376/backbone.stickit.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/dummy/clinicTypes.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/backbone.marionette.js",
 		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.html",
 		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.js",
 		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-select-view.js",
@@ -113,9 +139,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\library\\marionette"
 		]
 	},
 	"find_state":
@@ -123,6 +150,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"TreatmentModifyService",
+			"ChildViewContainer",
 			"this.selected =",
 			"isNull",
 			"onContactSel",
@@ -168,6 +197,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ClinicModifyService"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -183,18 +213,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/app.js",
+					"file": "app/scripts/bungle.js",
 					"settings":
 					{
-						"buffer_size": 1972,
+						"buffer_size": 746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1227,
-								1227
+								105,
+								105
 							]
 						],
 						"settings":
@@ -204,30 +234,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 1287,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								229
+								63,
+								63
 							]
 						],
 						"settings":
 						{
-							"auto_name": "The domain logic of the application is separate fr",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -237,28 +268,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+					"file": "app/scripts/app/presenters/ClinicPresenter.js",
 					"settings":
 					{
-						"buffer_size": 1652,
+						"buffer_size": 139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								236
+								139,
+								139
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -299,7 +328,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
