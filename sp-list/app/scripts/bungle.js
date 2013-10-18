@@ -45,6 +45,13 @@ requirejs.config({
   }
 });
 
-require(['app'], function (App) {
-  window.clinics = new App();
+require(['app', 'routers/main'], function (app, MainRouter) { 
+  app.expose('vent', _.extend({}, Backbone.Events));
+
+  // Pass in an initialization function to be run.
+  app.initialize(function () {    
+    var router = require();
+
+    this.vent.trigger('initialized');
+  });
 });

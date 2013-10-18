@@ -1,8 +1,17 @@
 define(function (require) {
-  var MainRouter = require('routers/main');
+	return {
+		meta : {
+			version : '0.1a'
+		},
 
-  return function () {
-    var router = new MainRouter();      
-    Backbone.history.start();
-  };
+		initialize : function (func) {
+			func.apply(this);
+		},
+
+		expose : function (namespace, obj) {
+			if(!this[namespace]) {
+				this[namespace] = obj;
+			}
+		}
+	};
 });

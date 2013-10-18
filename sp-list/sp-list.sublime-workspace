@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Clin",
+				"ClinicListView"
+			],
+			[
 				"Tr",
 				"TreatmentModifyService"
 			],
@@ -51,30 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/scripts/bungle.js",
-			"settings":
-			{
-				"buffer_size": 746,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 165,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/scripts/app/presenters/ClinicPresenter.js",
-			"settings":
-			{
-				"buffer_size": 139,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -100,18 +80,30 @@
 	},
 	"file_history":
 	[
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
-		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/MainLayout.js",
+		"/C/Users/admin/Documents/architecture",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/ClinicPresenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/clinics.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/services/ClinicCreateService.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/Layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/models/ClinicModel.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/collections/ClinicCollection.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/boot.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicFormView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicList.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicForm.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/jg/Presenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicMain.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/backbone.subroute.js",
 		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/MainLayout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/boot.js",
 		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.376/backbone.stickit.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/dummy/clinicTypes.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/backbone.marionette.js",
@@ -139,7 +131,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\library\\marionette"
@@ -208,90 +200,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/scripts/bungle.js",
-					"settings":
-					{
-						"buffer_size": 746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/scripts/app.js",
-					"settings":
-					{
-						"buffer_size": 165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								63,
-								63
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/scripts/app/presenters/ClinicPresenter.js",
-					"settings":
-					{
-						"buffer_size": 139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

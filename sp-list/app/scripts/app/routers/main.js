@@ -7,7 +7,7 @@ define(function (require) {
     },
 
     invokeClinics : function () {
-      new ClinicsRouter('clinics/');
+      //new ClinicsRouter('clinics/');
     }
   });
 });
