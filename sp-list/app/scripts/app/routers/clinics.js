@@ -1,4 +1,4 @@
-define(function (require) {
+define([], function (require) {
   var Presenter = require('presenters/ClinicPresenter'),
       View = require('views/ClinicListView'),
       Form = require('views/ClinicFormView'),
