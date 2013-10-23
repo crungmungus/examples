@@ -216,3 +216,5 @@ pip-log.txt
 
 
 node_modules/
+*.sublime-project
+*.sublime-workspace

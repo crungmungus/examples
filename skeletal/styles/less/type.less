@@ -1,0 +1,144 @@
+/**
+ * Defaults.
+ */
+html, body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0; padding: 0;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 300;
+	color: #404040;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: normal;
+	color: #404040;
+
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #a5a5a5;
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+p {
+	margin: 0;
+}
+
+.placeholder {
+	font-size: 28px;
+	font-weight: normal;
+	color: #b7b7b7;
+}
+
+::-webkit-input-placeholder{
+	.placeholder;
+} 
+
+:-moz-placeholder {
+	.placeholder;
+} 
+
+::-moz-placeholder{
+	.placeholder;
+} 
+
+:-ms-input-placeholder {  
+	.placeholder;
+}
+
+/**
+ * Put contextual styles here.
+ */
+.search {
+	h2 {
+		text-align: center;
+	}
+
+	input[type="text"] {
+		font-size: 28px;
+	}
+}
+
+.offer {
+	.expires {
+		font-size: 24px; font-weight: normal;
+		color: #a5a5a5;
+	}
+
+	.details {
+		font-size: 30px; font-weight: 600;
+		color: @blue;
+		line-height: 30px;
+		text-decoration: none;
+	}
+
+	.merchant {
+		font-size: 24px; font-weight: normal;
+		color: #404040;
+		line-height: 20px;
+	}
+}
+
+.exclusive {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.view-all {
+	font-size: 34px;
+	text-decoration : none;
+	text-align: center;
+	color: #fff;
+}
+
+#footer {
+	.goto-top {
+		font-size: 30px;
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.copy {
+		font-size: 26px;
+		color: #a5a5a5;
+		text-align: center;
+	}
+
+	.links {
+		a {
+			text-decoration : none;
+			font-size: 30px; font-weight: normal;
+			color: #a5a5a5;
+
+			&.primary {
+				color: #fff;
+			}
+		}
+
+		ul.right > li {
+			text-align: right;
+		}
+	}
+}
+
+/**
+ * Media query overrides here.
+ */

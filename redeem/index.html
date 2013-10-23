@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="offers">
+  <head lang="en">
+    <meta charset="utf-8">
+    <title>Address Book</title>
+    <script src="scripts/vendor/angular.js"></script>
+    <script src="scripts/vendor/underscore.js"></script>
+    <script src="scripts/dummy.js"></script>  
+    <script src="scripts/app.js"></script>  
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Bind to singular offer controller -->
+    <div ng-controller="OfferCtrl">
+      <li ng-repeat="offer in offers._wrapped">
+        <h3>{{offer.title}}</h3>
+        <a ng-href="#" ng-click="getCode(offer.id)" data-url="{{offer.url}}">Get Code</a>
+        <span ng-show="code">{{code}}</span>
+      </li>
+      <a ng-click="getMore()">More</a>
+    </div>
+  </body>
+</html>
