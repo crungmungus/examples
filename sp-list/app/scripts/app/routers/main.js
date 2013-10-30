@@ -1,7 +1,5 @@
-define(function (require) {
-  var ClinicsRouter = require('routers/clinics');
-  
-  return Backbone.Router.extend({
+define(['routers/clinics'], function (ClinicsRouter) {
+  var Router = Backbone.Router.extend({
     routes : {
        'clinics/' : 'invokeClinics'   
     },
@@ -10,4 +8,5 @@ define(function (require) {
       //new ClinicsRouter('clinics/');
     }
   });
+
 });

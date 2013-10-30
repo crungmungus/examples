@@ -80,25 +80,26 @@
 	},
 	"file_history":
 	[
-		"/C/Users/admin/Documents/architecture",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/clinics.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/ClinicPresenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/app.js",
+		"/C/Users/admin/Documents/architecture",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/clinics.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/services/ClinicCreateService.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/Layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/models/ClinicModel.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/collections/ClinicCollection.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicFormView.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicList.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicForm.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/jg/Presenter.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicMain.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/backbone.subroute.js",
 		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
 		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -131,7 +132,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\library\\marionette"

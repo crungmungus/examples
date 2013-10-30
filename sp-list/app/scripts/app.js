@@ -1,4 +1,4 @@
-define(function (require) {
+define(function () {
 	return {
 		meta : {
 			version : '0.1a'
