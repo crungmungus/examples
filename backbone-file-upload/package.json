@@ -1,0 +1,10 @@
+{
+  "name": "appointments",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "requirejs": "latest",
+    "connect": "2.7.0",
+    "express": "~3.4.4"
+  }
+}
