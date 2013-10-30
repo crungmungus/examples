@@ -5,20 +5,36 @@
     <title>Skeletal Template 0.1a</title>
     <link rel="stylesheet" href="styles/main.min.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />    
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />  
   </head>
   <body>
   	<div id="header">
-  		<div class="menu"></div>
-  		<div class="logo"></div>
-  		<div class="find"></div>
+  		<div class="menu"><a id="menu-toggle" href="#"></a></div>
+  		<div class="logo"><img src="images/logo-header.png" alt="" /></div>
+  		<div class="find"><a href="#"></a></div>
   	</div>
+    <div class="nav-wrapper">
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#"><i class="icon-womens-fashion"></i> Women's Fashion</a></li>
+          <li><a href="#"><i class="icon-mens-fashion"></i> Men's Fashion</a></li>
+          <li><a href="#"><i class="icon-days-out"></i> Days Out</a></li>
+          <li><a href="#"><i class="icon-leisure-entertainment"></i> Leisure &amp; Entertainment</a></li>
+          <li><a href="#"><i class="icon-travel-accommodation"></i> Travel &amp; Accommodation</a></li>
+          <li><a href="#"><i class="icon-sports-fitness"></i> Sports &amp; Fitness</a></li>
+          <li><a href="#"><i class="icon-womens-fashion"></i> All Categories</a></li>
+        </ul>
+        <a href="#" class="nav-btn">Login</a><a href="#" class="nav-btn">Sign Up</a>
+      </nav>
+    </div>
   	<div class="carousel">
   		<img src="http://placekitten.com/640/298" alt="" />
   	</div>
   	<div class="search">
   		<h2>Offers and savings from brands you love</h2>
-      <input type="text" id="search" placeholder="Enter a brand or store name" />
+      <div class="input-wrapper">
+        <input type="text" id="search" placeholder="Enter a brand or store name" /><button><i class="icon-search"></i></button>
+      </div>
   	</div>
   	<div class="panel main">
       <header>
@@ -33,7 +49,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -44,7 +60,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -55,7 +71,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -66,7 +82,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -77,7 +93,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>                
@@ -104,8 +120,8 @@
             <p class="exclusive online">Exclusive</p>
           </div>
           <div class="info">
-            <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <p class="expires"><i class="icon-alarm"></i>Hurry, expires tomorrow!</p>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -116,7 +132,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -127,7 +143,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -138,7 +154,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>
@@ -149,7 +165,7 @@
           </div>
           <div class="info">
             <p class="expires">Hurry, expires tomorrow!</p>
-            <a href="#" class="details">£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum ..</a>
+            <a href="#" class="details"><span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span></a>
             <p class="merchant">Frankie &amp; Benny's</p>
           </div>
         </li>                
@@ -157,7 +173,7 @@
       <a class="view-all online" href="#">View all online top offers</a>
     </div>
   	<div id="footer">
-  		<a href="#" class="goto-top">Back to Top</a>
+  		<a href="#" class="goto-top">Back to Top  <i class="pointer"></i></a>
       <div class="links">
         <ul class="left">
           <li><a href="" class="primary">Login / Sign Up</a></li>
@@ -172,5 +188,8 @@
       </div>
       <p class="copy">&copy; 2013 Skeletal Website</p>
   	</div>
+    <script src="scripts/vendor/jquery-2.0.3.min.js"></script>
+    <script src="scripts/vendor/clamp.js"></script>
+    <script src="scripts/app.js"></script> 
   </body>
 </html>

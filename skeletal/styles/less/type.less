@@ -108,6 +108,18 @@ p {
 	color: #fff;
 }
 
+#main-nav {
+	a {
+		.plain-link;
+		font-size: 32px; font-weight: normal;
+		color: #fff;
+
+		&.nav-btn {
+			text-align: center;
+		}
+	}
+}
+
 #footer {
 	.goto-top {
 		font-size: 30px;
@@ -139,6 +151,113 @@ p {
 	}
 }
 
+.search {
+	button {
+		color: #fff;
+		font-size: 64px;
+	}
+}
+
 /**
- * Media query overrides here.
+ * Custom font 
  */
+@font-face {
+	font-family: 'custom';
+	src:url('../fonts/custom.eot');
+	src:url('../fonts/custom.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/custom.ttf') format('truetype'),
+		url('../fonts/custom.woff') format('woff'),
+		url('../fonts/custom.svg#custom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*="icon-"] {
+	font-family: 'custom';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-automotive:before {
+	content: "\e600";
+}
+.icon-electrical-other:before {
+	content: "\e601";
+}
+.icon-electrical-uk:before {
+	content: "\e602";
+}
+.icon-finance:before {
+	content: "\e603";
+}
+.icon-food-togo:before {
+	content: "\e604";
+}
+.icon-free-delivery:before {
+	content: "\e605";
+}
+.icon-health-&beauty:before {
+	content: "\e606";
+}
+.icon-home-&garden:before {
+	content: "\e607";
+}
+.icon-leisure-entertainment:before {
+	content: "\e608";
+}
+.icon-mens-fashion:before {
+	content: "\e609";
+}
+.icon-pubs-&bars:before {
+	content: "\e60a";
+}
+.icon-restaurants:before {
+	content: "\e60b";
+}
+.icon-sports-fitness:before {
+	content: "\e60c";
+}
+.icon-students:before {
+	content: "\e60d";
+}
+.icon-travel-accommodation:before {
+	content: "\e60e";
+}
+.icon-utilities-&services:before {
+	content: "\e60f";
+}
+.icon-womens-fashion:before {
+	content: "\e610";
+}
+.icon-days-out:before {
+	content: "\e611";
+}
+.icon-casual-dining:before {
+	content: "\e612";
+}
+.icon-vodafone:before {
+	content: "\e613";
+}
+.icon-search:before {
+	content: "\e614";
+}
+.icon-near-me:before {
+	content: "\e615";
+}
+.icon-menu:before {
+	content: "\e616";
+}
+.icon-close-menu:before {
+	content: "\e617";
+}
+.icon-alarm:before {
+	content: "\e618";
+}

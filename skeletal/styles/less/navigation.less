@@ -1,0 +1,42 @@
+.nav-wrapper {
+	position: relative;
+	display: none;
+}
+
+#main-nav {
+	background-color: #404040;
+	position: absolute; left: 0; right: 0;
+	z-index: 2;
+
+	ul {
+		.blank-list;
+		padding: 30px 30px 0 30px;
+		border-bottom: 1px solid #414141;
+
+		li {
+			margin-bottom: 40px;
+		}
+
+		a {
+			display: block;
+		}
+
+		i {
+			margin-right: 30px;
+		}
+	}
+
+	.nav-btn {
+		padding: 20px 0;
+		float: left;
+		display: block;
+		background-color: #646464;
+		border-top : 1px solid #585858;
+		width: 50%;
+		.border-box;
+	}
+
+	.nav-btn:last-of-type {
+		border-left : 1px solid #585858;
+	}
+}
