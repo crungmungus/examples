@@ -1,28 +1,50 @@
+(function () {
+  var Uploader = function (opts) {
+    this.defaults = {
+      type: 'POST',
+      processData: false,
+      contentType: false 
+    }
+
+    this.opts = $.extend(opts, this.defaults);
+  }
+
+  Uploader.prototype = {
+    upload : function (data) {
+      var params = $.extend({
+        'data' : data,
+      }, this.opts);
+
+      return $.ajax(params);
+    }
+  }
+
+  window.Uploader = Uploader;
+}());
+
 var UploadView = Backbone.View.extend({
   events : {
     'change :file' : 'onFileChanged'
   },
 
   initialize : function () {
-
+    this.uploader = new Uploader({
+      url : '/upload'
+    });
   },
 
   onFileChanged : function (e) {
-    var upload = this.upload(e.target.files[0])
-  },
+    var upload, fd;
 
-  upload : function (file) {
-    console.log(file);
-    return $.ajax({
-      type : 'post',
-      url  : '/upload?name=' + file.name,
-      data : file,
-      processData: false,
-      contentType: file.type
+    fd = new FormData();
+    fd.append('myFile', e.target.files[0]);
+
+    upload = this.uploader.upload(fd)
+    upload.done(function () {
+      console.log('file uploaded.');
     });
   }
 });
-
 
 var upload = new UploadView();
     upload.setElement($('#uploads'));

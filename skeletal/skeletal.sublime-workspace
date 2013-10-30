@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"var",
+				"Variable"
+			],
+			[
+				"data",
+				"data-clipboard-text"
+			],
+			[
+				"get",
+				"getSessionDomains"
+			],
+			[
+				"check",
+				"check_pin_url"
+			],
+			[
+				"text-",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/bom.less",
+			"settings":
+			{
+				"buffer_size": 10482,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/menu.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/header.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/responsive.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/main.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/mixins.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/scripts/vendor/clamp.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/offers.less",
+		"/C/Users/Amber/AppData/Local/Temp/7zE50C9.tmp/clamp.js",
+		"/C/Users/Amber/Documents/Vouchercloud/cunt/style.css",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/merchants.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/footer.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/search.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/layout.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/normalize.less",
+		"/C/Users/Amber/Dropbox/USCity_files/global.css",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/global.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/offers.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/competitions.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/modals.css",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/icons.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/bom.less",
+		"/C/Users/Amber/Documents/Vouchercloud/bom/index.html",
+		"/C/Users/Amber/Documents/Vouchercloud/bom/styles/pikaday.css",
+		"/C/Users/Amber/Documents/Vouchercloud/bom/less-external-build/modules/bom.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/layout.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/header.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/offers.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/buttons.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/control-cloud.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/panels.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/branches.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/tables.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/Common.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/scripts/tabs.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/config.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Web.config",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Users/Amber/Documents/examples.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/modules/offers.less",
+		"/C/Users/Amber/Documents/Vouchercloud/its_christmas/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/global.min.css",
+		"/C/temp/bootstrap.css",
+		"/C/temp/bootstrap.js",
+		"/C/Users/Amber/AppData/Local/Temp/7zEE2FE.tmp/bootstrap.css",
+		"/C/Users/Amber/Dropbox/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/treatments/treatments-view.js",
+		"/C/Users/Amber/Dropbox/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/treatments/main-template.html",
+		"/C/Users/Amber/Dropbox/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/treatments/treatments-desktop.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/modules/bom.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/overlay.less",
+		"/C/Users/Amber/Dropbox/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/vendor/lodash-1.0.1/lodash.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/vendor/lodash-1.0.1/lodash.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/treatments/treatment-defaults.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/treatments/treatments-view.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/treatments/treatments-form.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/treatments/treatment-search.js",
+		"/C/Users/Amber/Documents/Vouchercloud/bom/scripts/pikaday.css",
+		"/C/Users/Amber/hosts",
+		"/C/Users/Amber/Documents/Vouchercloud/bom-pod/index.html",
+		"/C/Users/Amber/Documents/Vouchercloud/bom-pod/less-external-build/modules/bom.less",
+		"/C/Users/Amber/Documents/GitHub/examples/vouchers/vouchers.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/modules/upsell.less",
+		"/C/Users/Amber/Documents/GitHub/examples/vouchers/package.json",
+		"/C/Users/Amber/Documents/Vouchercloud/serps.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/styles/desktop/less-external-build/new-modules.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/styles/desktop/less-external-build/modules.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/styles/desktop/less-external-build/global.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/modules/upsell.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/styles/desktop/less-external-build/modules/overlay.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/styles/desktop/less-external-build/modules/offers.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/2013-20/scripts/desktop/offer.min.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/scripts/desktop/offer.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/scripts/desktop/global.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/scripts/offers.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/modules/offers.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/email.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/modules.less",
+		"/C/Users/Amber/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/global.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/header.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/main.less",
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/package.json",
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/api.js",
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/Procfile",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/tabs.less",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/index.html",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/styles/tipsy.css",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/scripts/jquery.tipsy.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/icons.less",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/global.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.HoldingPages/cz/index.html",
+		"/C/Users/Amber/Documents/categories.txt",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/global.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/icons.less",
+		"/C/Users/Amber/Documents/GitHub/examples/redeem/scripts/dummy.js",
+		"/C/Users/Amber/Documents/GitHub/examples/address/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.8.0.0/styles/desktop/less-external-build/header.less",
+		"/C/Users/Amber/Documents/GitHub/examples/redeem/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/navbar.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/forms.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/type.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/mixins.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/type.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/icons.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/layout.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/layout.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/RelatedMerchants.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/Paging.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/MerchantList.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/tabs.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/control-cloud.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/config.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/scripts/tabs.js",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/scripts/wonderful.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/tables.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/thumbnails.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/buttons.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/type.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/navbar.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/forms.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\js\\calendar\\views\\treatments",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\modules",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\bootstrap",
+			"D:\\src\\holding pages\\za",
+			"D:\\src\\bootstrap\\vc-mobile",
+			"D:\\src\\bootstrap\\vc-mobile\\styles\\less\\bootstrap",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.",
+			"ipsum ..",
+			";\n",
+			"%;\n",
+			"fonts/",
+			"icomoon",
+			"class=\"exclusive",
+			"<div class=\"main\">",
+			"<i class=\"exclusive\">Exclusive</i>",
+			"<i>Exclusive</i>",
+			"	\n",
+			"width:",
+			"media",
+			".welcome",
+			"upsell",
+			"body",
+			"toggle",
+			"terms",
+			".sym",
+			".toggle",
+			"terms",
+			"entry",
+			"login",
+			"dob",
+			".tick",
+			"hr",
+			"modal",
+			"hr",
+			"404040",
+			"hr",
+			"pod",
+			"color",
+			"hr",
+			"modal-body",
+			"width: 600",
+			"dismiss",
+			"float: right",
+			"modal",
+			"dialog",
+			"show",
+			"show password",
+			"input",
+			"leftCol",
+			"leftcol",
+			"line-height: 15px",
+			".enter",
+			"datepicker",
+			"script",
+			"69",
+			"button",
+			"squish",
+			".enter",
+			".disab",
+			"a {",
+			"details ",
+			".terms",
+			"terms",
+			".feature",
+			"dob",
+			"divider",
+			";\n",
+			"small",
+			"type='text",
+			"type='test",
+			"type=text",
+			"placeholder",
+			"instructions",
+			".copy",
+			"a {",
+			"terms",
+			"enter",
+			"main",
+			"blurb",
+			"terms",
+			"line-height: 32px",
+			"line-height:32",
+			".code",
+			"no-copy",
+			".seq",
+			"275px",
+			"288px",
+			"title",
+			"block",
+			"dates",
+			"terms",
+			"status",
+			"branch",
+			"a",
+			"api",
+			"apiurl",
+			"	list-style: disc;\n				color: #3a3633;\n				padding-left: 18px;\n\n				li {\n					margin-bottom: 10px;\n				}\n			}",
+			"terms",
+			".sym",
+			"type",
+			".terms",
+			"terms-view",
+			"terms",
+			"terms-view",
+			"terms",
+			":hover",
+			"input[type=\"submit\"]",
+			"radius",
+			"competition",
+			"format",
+			"terms-up",
+			"up",
+			"main",
+			"hr",
+			".terms",
+			"toggle",
+			"up",
+			"terms",
+			"exc",
+			"use",
+			"border",
+			".offer {",
+			"radio",
+			"bind",
+			"nativebind",
+			"onClinic",
+			"onFilterReset",
+			"bindAll",
+			"addOne",
+			"addAll",
+			"onSave",
+			"addAll",
+			"onClinicTypeSelected",
+			"hr"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>",
+			"ipsum.",
+			"../fonts/",
+			"custom",
+			"class=\"exclusive online",
+			"<div class=\"info\">",
+			"<p class=\"exclusive\">Exclusive</p>",
+			"<i class=\"exclusive\">Exclusive</i>",
+			"'../../images/",
+			"giftcloud.co.uk",
+			"<li>",
+			"@{images}",
+			"",
+			"dealcloud.co.uk",
+			"",
+			"dealcloud.co.uk",
+			"href=\"http://aws.invitationdigital.co.uk/Invitation Digital Directions.pdf\" target=\"_blank\"",
+			"max-width : 800px",
+			".icon-",
+			" class=\"heading\"",
+			"\"",
+			"",
+			"5.5.0.0",
+			"/5.6.0.1/",
+			"/",
+			"/5.6.0.1/images/",
+			"",
+			" <tr><td align=\"left\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			" <tr><td align=\"middle\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			"<h3>Email headline goes here</h3>",
+			"/5.2.0.1/images/",
+			"",
+			"/5.2.0.1/images",
+			"Canada",
+			"New Zealand",
+			"Australia",
+			"<li><a href=\"http://pinterest.com/vouchercloud/\" target=\"_blank\"><i class=\"icon-pinterest\"></i></a></li>",
+			".icon-",
+			"icon-",
+			"http://d6ori12lvugze.cloudfront.net/emailer/images/",
+			"../images/",
+			"http://d6ori12lvugze.cloudfront.net/",
+			"<img src=\"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"",
+			"exclusive_banner.png",
+			"-",
+			"background-position:",
+			"background-position: ",
+			"\\",
+			"dcMerchantColor",
+			"dcPanelBgColor",
+			"top",
+			"left",
+			"height",
+			"width",
+			"this",
+			"  ",
+			" ",
+			"\\s",
+			"name",
+			"dev.creativeplantation.com/vcresemail/images/",
+			"<meta name=\"viewport\" content=\"user-scalable=no,width=device-width\" />",
+			"pull-right",
+			"pull-left",
+			"",
+			"<div class=\"info\" style=\"display:none\">",
+			"<i class=\"icon-angle-right\"></i>",
+			" <i class=\"icon-angle-right\"></i>\n              <div class=\"info\">\n                <p>Bacon ipsum dolor sit amet pork rump pork loin beef meatloaf fatback frankfurter chuck t-bone ball tip drumstick tail shank bacon turducken.</p>\n              </div>",
+			"icon-angle-right",
+			"",
+			"<i class=\"icon-info-sign\" style=\"display: none\"></i>",
+			"class=\"add-to-cart\"",
+			"<a href=\"#\" data-action=\"add-to-cart\">",
+			"<i class=\"icon-info-sign\" style=\"display: none\">",
+			"<a href=\"#\"><i class=\"icon-info-sign\"></i></a>",
+			"icon-info-sign",
+			"  <small>Street Name, Town</small>                     ",
+			"redeem.html",
+			"<a href=\"find-stores.html\"> ",
+			"class=\"offer\"",
+			"",
+			"\\",
+			"/",
+			"\"",
+			"'",
+			"\"",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/20.0.0/styles/desktop/less-external-build/modules/bom.less",
+					"settings":
+					{
+						"buffer_size": 10482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/src/app options screen/app-options-screen.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

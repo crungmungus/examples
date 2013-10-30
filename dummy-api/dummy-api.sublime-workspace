@@ -1,0 +1,596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getSessionDomains"
+			],
+			[
+				"check",
+				"check_pin_url"
+			],
+			[
+				"text-",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/type.less",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Amber/main.less",
+			"settings":
+			{
+				"buffer_size": 7759,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/main.less",
+			"settings":
+			{
+				"buffer_size": 7759,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/package.json",
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/api.js",
+		"/C/Users/Amber/Documents/GitHub/examples/dummy-api/Procfile",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/global.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/main.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/tabs.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/scripts/desktop/offer.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/index.html",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/scripts/offers.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/styles/tipsy.css",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/scripts/jquery.tipsy.js",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/modules/offers.less",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/icons.less",
+		"/C/Users/Amber/Documents/Vouchercloud/offer partial/less-external-build/global.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/modules/upsell.less",
+		"/C/Users/Amber/hosts",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.HoldingPages/cz/index.html",
+		"/C/Users/Amber/Documents/categories.txt",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.9.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/global.less",
+		"/C/Users/Amber/Documents/Vouchercloud/app upsell/less-external-build/icons.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/redeem/scripts/dummy.js",
+		"/C/Users/Amber/Documents/GitHub/examples/address/index.html",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.8.0.0/styles/desktop/less-external-build/header.less",
+		"/C/Users/Amber/Documents/GitHub/examples/redeem/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/config.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/navbar.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/forms.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/panels.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/type.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/buttons.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/control-cloud.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/mixins.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/type.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/icons.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/layout.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/layout.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/RelatedMerchants.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/Paging.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/MerchantList.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/tabs.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/control-cloud.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/config.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/scripts/tabs.js",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/scripts/wonderful.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/tables.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/thumbnails.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/buttons.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/type.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/navbar.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/forms.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/mixins.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/variables.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/grid.less",
+		"/D/src/idl/index.html",
+		"/D/src/idl/styles/less/main.less",
+		"/D/s3",
+		"/D/src/idl/styles/less/tabs.less",
+		"/D/src/idl/styles/less/menu.less",
+		"/D/src/idl/styles/less/type.less",
+		"/D/src/idl/styles/less/banners.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/styles/desktop/less-external-build/new-modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/Js/SearchMerchants.js",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/buttons.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/sprites.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/tables.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/bootstrap.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/bootstrap/type.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/modules/table.less",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/control-cloud.min.css",
+		"/C/git/vouchercloud-idl/IDL.Web.ControlCloud/Content/styles/less/Flat-UI-master/less/flat-ui.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/icon.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/banners.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/grid.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/tabs.less",
+		"/E/full/index.html",
+		"/E/full/scripts/app.js",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/menu.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/hero.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/reset.less",
+		"/C/Users/jgardner/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/au/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/br/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/ca/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/cz/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/in/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/nz/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.HoldingPages/za/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/style.less",
+		"/C/git/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/base.less",
+		"/D/5.5.0.0/styles/desktop/less-external-build/header.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/styles/desktop/less-external-build/modules.less",
+		"/D/fix-30-07-2013/holding pages/nz/index.html",
+		"/D/5.5.0.0/styles/desktop/less-external-build/modules.less",
+		"/D/5.5.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/D/fix-30-07-2013/holding pages/au/index.html",
+		"/D/src/bootstrap/vc-mobile/styles/less/main.less",
+		"/D/fix-30-07-2013/holding pages/nz/HoldingPages.csproj",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/styles/desktop/less-external-build/header.less",
+		"/D/fix-30-07-2013/holding pages/ca/index.html",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/scripts/desktop/offer.js",
+		"/D/src/landing pages/index.html",
+		"/D/src/landing pages/styles/campaign-landing-page.less",
+		"/E/full/styles/main.css",
+		"/D/src/offers/index.html",
+		"/D/src/offers/scripts/happy.js",
+		"/D/synopsis.txt",
+		"/C/Users/jgardner/Documents/pagespeed.txt",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.1/styles/desktop/global.min.css",
+		"/D/src/landing pages/styles/campaign-landing-page.css",
+		"/D/global.min.css",
+		"/D/usual-suspects",
+		"/D/src/new-modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.0/styles/desktop/less-external-build/modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.6.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/D/fixes",
+		"/D/simple-tests.json",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.3.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.3.0.0/styles/desktop/less-external-build/modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.3.0.0/styles/desktop/less-external-build/footer.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.3.0.0/styles/desktop/less-external-build/header.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.5.0.0/styles/desktop/less-external-build/modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.5.0.0/styles/desktop/less-external-build/new-modules.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.5.0.0/styles/mobile/global.less",
+		"/C/git/vouchercloud-idl/IDL.Web.VoucherCloud/Content/5.5.0.0/styles/desktop/less-external-build/header.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\modules",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\bootstrap",
+			"D:\\src\\holding pages\\za",
+			"D:\\src\\bootstrap\\vc-mobile",
+			"D:\\src\\bootstrap\\vc-mobile\\styles\\less\\bootstrap",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".heading",
+			"h1",
+			"32",
+			"35%",
+			".container",
+			"code",
+			"redeem_url",
+			"redeem",
+			"getCode",
+			"copy",
+			"CURSOR",
+			"hover",
+			"copy",
+			"copy4",
+			"seq",
+			"hover",
+			"get",
+			"i>",
+			"button",
+			"chev",
+			"button",
+			" button",
+			" button4",
+			"chev",
+			"button",
+			"chev",
+			"button",
+			".",
+			".button",
+			"button",
+			".copy",
+			".cop",
+			"opacity",
+			"exclusive",
+			"gravity.length == 2",
+			"gravity.length ==2",
+			"'se'",
+			"se",
+			"translated",
+			"font",
+			";\n",
+			"font-weight",
+			"tipsy",
+			"font-family",
+			"exclusive",
+			"exc",
+			"redeem:",
+			"redeem",
+			"validsession",
+			"sessiondomain",
+			"SessionValid",
+			"account_session_domains_url",
+			"SessionValidDomains",
+			"get",
+			"sessionDom",
+			"redeem:",
+			"getCode",
+			"redeem",
+			"copy",
+			"<li> ",
+			"redeem",
+			"				\n",
+			"offer-button",
+			"terms",
+			"terms-view",
+			"up",
+			"bg-gradient",
+			"copy",
+			"15px",
+			"button",
+			"font-size",
+			"copy",
+			"button",
+			"copy",
+			"button",
+			"seq",
+			"button",
+			"buton",
+			"radius",
+			"images",
+			"painters",
+			"painting ",
+			"painting and deco",
+			";\n",
+			"save",
+			"foral",
+			"dealcloud.co.uk",
+			"dealcloud.com",
+			"title=\"title here\"",
+			"title here",
+			"title goes here",
+			"dealcloud.com",
+			"Failed to load resource http://www.invitationdigital.co.uk",
+			"dealcloud.com",
+			"OfferCtrl",
+			"column",
+			"office",
+			"margin-top: 65",
+			"title",
+			"b24343",
+			"sansFontFamily",
+			"radius",
+			".box-sizing",
+			".box",
+			"gridColumnWidth",
+			"grid",
+			"span4",
+			".menu",
+			"top",
+			"href=\"http://aws.invitationdigital.co.uk/Invitation Digital Directions.pdf\"",
+			"48",
+			"h2",
+			"h1",
+			"valid",
+			".tw",
+			"favorite",
+			"#3E3E3F",
+			".info",
+			".socialButtons",
+			".tw",
+			".fb",
+			"emergency",
+			"favo",
+			"button",
+			"gp",
+			"tp",
+			"fav-bu",
+			"images"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<li>",
+			"@{images}",
+			"",
+			"dealcloud.co.uk",
+			"",
+			"dealcloud.co.uk",
+			"href=\"http://aws.invitationdigital.co.uk/Invitation Digital Directions.pdf\" target=\"_blank\"",
+			"max-width : 800px",
+			".icon-",
+			" class=\"heading\"",
+			"\"",
+			"",
+			"5.5.0.0",
+			"/5.6.0.1/",
+			"/",
+			"/5.6.0.1/images/",
+			"",
+			" <tr><td align=\"left\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			" <tr><td align=\"middle\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			"<h3>Email headline goes here</h3>",
+			"/5.2.0.1/images/",
+			"",
+			"/5.2.0.1/images",
+			"Canada",
+			"New Zealand",
+			"Australia",
+			"<li><a href=\"http://pinterest.com/vouchercloud/\" target=\"_blank\"><i class=\"icon-pinterest\"></i></a></li>",
+			".icon-",
+			"icon-",
+			"http://d6ori12lvugze.cloudfront.net/emailer/images/",
+			"../images/",
+			"http://d6ori12lvugze.cloudfront.net/",
+			"<img src=\"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"",
+			"exclusive_banner.png",
+			"-",
+			"background-position:",
+			"background-position: ",
+			"\\",
+			"dcMerchantColor",
+			"dcPanelBgColor",
+			"top",
+			"left",
+			"height",
+			"width",
+			"this",
+			"  ",
+			" ",
+			"\\s",
+			"name",
+			"dev.creativeplantation.com/vcresemail/images/",
+			"<meta name=\"viewport\" content=\"user-scalable=no,width=device-width\" />",
+			"pull-right",
+			"pull-left",
+			"",
+			"<div class=\"info\" style=\"display:none\">",
+			"<i class=\"icon-angle-right\"></i>",
+			" <i class=\"icon-angle-right\"></i>\n              <div class=\"info\">\n                <p>Bacon ipsum dolor sit amet pork rump pork loin beef meatloaf fatback frankfurter chuck t-bone ball tip drumstick tail shank bacon turducken.</p>\n              </div>",
+			"icon-angle-right",
+			"",
+			"<i class=\"icon-info-sign\" style=\"display: none\"></i>",
+			"class=\"add-to-cart\"",
+			"<a href=\"#\" data-action=\"add-to-cart\">",
+			"<i class=\"icon-info-sign\" style=\"display: none\">",
+			"<a href=\"#\"><i class=\"icon-info-sign\"></i></a>",
+			"icon-info-sign",
+			"  <small>Street Name, Town</small>                     ",
+			"redeem.html",
+			"<a href=\"find-stores.html\"> ",
+			"class=\"offer\"",
+			"",
+			"\\",
+			"/",
+			"\"",
+			"'",
+			"\"",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/type.less",
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Amber/main.less",
+					"settings":
+					{
+						"buffer_size": 7759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7572,
+								7584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6069.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.InvitationDigital/styles/less/main.less",
+					"settings":
+					{
+						"buffer_size": 7759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7586,
+								7586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6069.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/src/app options screen/app-options-screen.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
