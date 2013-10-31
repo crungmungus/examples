@@ -40,7 +40,7 @@ var app = (function () {
 
     $scope.delete = function () {
       var index, i;
-      console.log('delete')
+
       for(i = 0; i < contacts.length; i++) {
         if(contacts[i].uid == $routeParams.id) {
           index = i;
