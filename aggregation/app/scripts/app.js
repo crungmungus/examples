@@ -46,6 +46,26 @@ var test = _.map(procs, function (obj) {
 });
 
 // Get all objects resulting from a link table lookup.
-_.map(types, function () {
-  
+// So we have a list of id's corresponding to each object list. We could just loop through each and grab the model
+// or use some funky collector method?
+
+// Collect all clinic type objects that correspond to a list of ids.
+var collect = function (collection, list) {
+  var r = _.filter(collection, function (obj) {
+    return _.contains(list, obj.
+  });
+}
+
+collect(procedures, function () {
+  var list = _.where(link, {cTypeId : 416});
+  return _.map(list, function (obj) {
+    return obj.
+  }
 });
+
+var r = _.filter(procedures, function (obj) {
+  var list = _.where(link, {cTypeId : 416});
+  _.contains(list, )
+});
+
+console.log(r); 
