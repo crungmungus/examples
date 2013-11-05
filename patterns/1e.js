@@ -7,29 +7,26 @@
 
 	var p = DeviceList.prototype;
 
-	p.load = function (data) {
-		this.data = data;
+	p.onItemClicked = function (e) {
+		console.log(e);
 	};
 
-	p.list = function () {
-		var i, len, item, list;
-
-		list = this.el.getElementsByClassName('device-list')[0];
-		list.innerHTML = '';
-
-		len = this.data.length;
-		for(i = 0; i < len; i++) {
-			item = document.createElement('li');
-			item.innerText = this.data[i].name;				
-		
-			list.appendChild(item);
-		}
+	p.list = function (data, func) {
+		data.forEach(function (obj) {
+			this.el.appendChild(func(obj));
+		}.bind(this));
 	};	
 
 	global.DeviceList = DeviceList;
 }(window));
 
 // Lastly, instantiate and load in data.
-var myDeviceList = new DeviceList(document.getElementById('devices'));
-		myDeviceList.load(devices);
-		myDeviceList.list();
+var dm = new DeviceList(document.getElementById('devices'));
+
+// Pass in data with a decorator.
+dm.list(devices, function (obj) {
+	var li = document.createElement('li');
+			li.innerText = obj.name;
+
+	return li;
+});
