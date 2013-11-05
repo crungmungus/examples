@@ -3,6 +3,8 @@
 (function (global) {
 	var DeviceList = function (el) {
 		this.el = el;
+
+		this.el.addEventListener('click', this.onItemClicked);
 	};
 
 	var p = DeviceList.prototype;
