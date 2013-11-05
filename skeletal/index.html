@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Skeletal Template 0.1a</title>
     <link rel="stylesheet" href="styles/main.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles/slider.css" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />  
   </head>
@@ -100,13 +101,20 @@
       </ul>
       <a class="view-all in-store" href="#">View all in-store top offers</a>
   	</div>
-    <div class="random-merchants">
-      <ul>
-        <li><img src="http://placekitten.com/152/152" alt="" /></li>
-        <li><img src="http://placekitten.com/152/152" alt="" /></li>
-        <li><img src="http://placekitten.com/152/152" alt="" /></li>
-        <li class="last"><img src="http://placekitten.com/152/152" alt="" /></li>
-      </ul>
+    <div style="padding: 20px">
+      <div class = 'iosslider'>
+        <div class = 'slider'>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>
+          <div class='slide'><img src="http://placekitten.com/152/152" alt="" /></div>                
+        </div>
+      </div>
     </div>
     <div class="panel main">
       <header>
@@ -189,6 +197,7 @@
       <p class="copy">&copy; 2013 Skeletal Website</p>
   	</div>
     <script src="scripts/vendor/jquery-2.0.3.min.js"></script>
+      <script src="scripts/vendor/jquery.iosslider.js"></script>
     <script src="scripts/vendor/clamp.js"></script>
     <script src="scripts/app.js"></script> 
   </body>

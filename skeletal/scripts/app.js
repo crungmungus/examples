@@ -15,4 +15,14 @@
 	for(var i = 0; i < lines.length; i++) {
 		$clamp(lines[i], { clamp: 3 });
   };
+
+	/* basic - default settings */
+	$('.iosslider').iosSlider();
+	
+	/* some custom settings */
+	$('.iosslider').iosSlider({
+		snapToChildren: true,
+		scrollbar: false,
+		desktopClickDrag: true,
+	});
 }());
