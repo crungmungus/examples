@@ -1,3 +1,4 @@
+
 /*jslint browser: true, devel: true, plusplus: true, white: false, indent: 2 */
 
 (function (global) {
@@ -13,9 +14,9 @@
 		console.log(e);
 	};
 
-	p.list = function (data, func) {
+	p.list = function (data, tmpl) {
 		data.forEach(function (obj) {
-			this.el.appendChild(func(obj));
+			this.el.appendChild(tmpl(obj));
 		}.bind(this));
 	};	
 
