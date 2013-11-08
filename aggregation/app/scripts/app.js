@@ -1,71 +1,71 @@
-// Clinic Type -> Many Procedures <- Clinic Types
+/**
+ * Item type primitive.
+ * A branch or Item can be an item in the tree.
+ */
+var Item = function (obj) {	
+  this.children = [];
+  _.extend(this, obj);
+};
 
-// So how do we know what procedure belongs to which clinic and vice versa?
-// Normally you'd set up some kind of link table. Let's write a data abstraction for that
+var p = Item.prototype;
 
-/*
-  Example, Procedure 1010 belongs to ClinicTypes 1, 3, 5 2
+/**
+ * Nest items within an item.
+ * Takes in an array of items and an iterator function for parsing them.
+ */
+p.add = function (items, func) {
+	_.each(items, function (item) {
+  	var inner = (_.isFunction(func)) ? func(item) : item;
+    this.children.push(new Item(inner));
+  }, this);
+};
 
-  ClinicTypeId, ProcedureId
-  1             1010
-  1             1923
-  1             2312
-  3             1010
-  5             1010
-  2             1010
-*/
-var link = [
-   /* {cTypeId : 1, procId: 2} */
-];
+/**
+ * Patch _.each into prototype as a useful shortcut.
+ */
+p.each = function () {
+  var args = [].slice.call(arguments);
+  		args.unshift(this.children);
+  
+  return _.each.apply(_, args);
+};
 
-_.each(procedures, function (item) {
-  var i, len = item.clinicTypeId.length;
+/**
+ * Pick children by criteria.
+ */
+p.find = function () {
+	var args = [].slice.call(arguments);
+			args.unshift(this.children);
 
-  for(i = 0; i < len; i++) {
-    link.push({
-      procId  : item.id,
-      cTypeId : item.clinicTypeId[i]
-    });
-  }
+	return _.where.apply(_, args).shift();
+};
+
+// Build the tree, starting from the root.
+var items = [], root = new Item(),
+	  types = _.uniq(_.pluck(treatments, 'clinicTypeName'));
+
+// Build a basic root index of clinic types in use (from treatments).
+root.add(types, function (type) {	
+	return _.find(clinicTypes, function (t) {		
+		return t.name === type;
+	});	
 });
 
-// Find all procedures with a clinic type id of 416.
-var procs = _.where(link, {cTypeId : 416});
+// Add procedures to their respective parent clinic type.
+_.each(treatments, function(treatment) {
+	var proc, branch = root.find({'name' : treatment.clinicTypeName});
+	
+	// Add procedures into clinic type branch.
+	if(branch) {
+		branch.add([treatment], function (t) {
+			return _.pick(t, 'procId', 'procedureName');
+		});
 
-// Find all clinics with procedure 1168 
-var types = _.where(link, {procId : 1168});
-
-var query = function (source, query) {
-  // Cool, but no way to correlate objects to source?
-  // Whatever my query function returns can be the comparison criteria?  
-  // i.e. {}
-}
-
-var test = _.map(procs, function (obj) {
-  return { id : obj.procId }
+		// And finally add the treatment to the procedure.
+		proc = branch.find({ 'procedureName' : treatment.procedureName});
+		proc.add([treatment]);
+	}
 });
 
-// Get all objects resulting from a link table lookup.
-// So we have a list of id's corresponding to each object list. We could just loop through each and grab the model
-// or use some funky collector method?
-
-// Collect all clinic type objects that correspond to a list of ids.
-var collect = function (collection, list) {
-  var r = _.filter(collection, function (obj) {
-    return _.contains(list, obj.
-  });
-}
-
-collect(procedures, function () {
-  var list = _.where(link, {cTypeId : 416});
-  return _.map(list, function (obj) {
-    return obj.
-  }
-});
-
-var r = _.filter(procedures, function (obj) {
-  var list = _.where(link, {cTypeId : 416});
-  _.contains(list, )
-});
-
-console.log(r); 
+// Tree is complete.
+console.log(root);
