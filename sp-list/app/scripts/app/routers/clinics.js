@@ -1,8 +1,16 @@
-define(['app'], function (app) {
+define(['app', 'presenters/clinics'], function (app, Presenter) {
   var Router = Backbone.SubRoute.extend({
-  	initialize : function () {
-  		console.log('wahey!');
-  	}
+    routes : {
+      '' : 'root'
+    },
+
+    root : function () {
+      var presenter = new Presenter({
+
+      });
+
+      console.log(presenter);
+    }
   });
 
   return Router;

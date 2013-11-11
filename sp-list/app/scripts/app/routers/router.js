@@ -1,8 +1,16 @@
-define(['routers/clinics'], function (ClinicsRouter) {
+/**
+ * Routers are configuration, not controllers!
+ * See: http://jsondata.tumblr.com/post/26508172926/backbone-3
+ */
+define(['app', 'routers/clinics'], function (app, ClinicsRouter) {
   var Router = Backbone.Router.extend({
-    initialize : function () {
-
+    routes : {
+      'clinics/*subroute' : 'invokeClinics'
     },
+
+    invokeClinics : function (subroute) {
+      new ClinicsRouter('clinics/');
+    }
   });
 
   return Router;
