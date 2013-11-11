@@ -1,4 +1,4 @@
-define(['app', 'presenters/clinics'], function (app, Presenter) {
+define(['app', 'views/clinics/main', 'presenters/clinics'], function (app, View, Presenter) {
   'use strict';
 
   var Router = Backbone.SubRoute.extend({
@@ -8,8 +8,7 @@ define(['app', 'presenters/clinics'], function (app, Presenter) {
 
     root : function () {
       var presenter = new Presenter({
-        view : null,
-        service : null
+        view : new View()
       });
     }
   });

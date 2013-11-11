@@ -60,12 +60,13 @@ require(['app', 'routers/router', 'views/layout'], function(app, Router, Layout)
   app.extend('events', _.extend({}, Backbone.Events));
 
   app.initialize(function () {
-    app.layout = new Layout();
     app.router = new Router();
 
-    $("body").prepend(app.layout.render().el);
-    Backbone.history.start();
+    app.layout = new Layout();
+    app.layout.render();
 
-    app.events.trigger('app:initialized');
+    // TODO: Tidy this bit up.
+    $('body').prepend(app.layout.el);
+    Backbone.history.start();
   });
 });
