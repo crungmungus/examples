@@ -1,6 +1,4 @@
 requirejs.config({
-  baseUrl: 'scripts',
-
   paths: {
     text: 'vendor/text',
     presenters: 'app/presenters',
@@ -14,7 +12,7 @@ requirejs.config({
     'vendor/jquery-2.0.3.min': {
       exports: '$'
     },
-  	'vendor/underscore-min': {
+    'vendor/underscore-min': {
       exports: '_'
     },
     'vendor/backbone': {
@@ -31,26 +29,6 @@ requirejs.config({
     'library/backbone.subroute' : {
       deps: ['vendor/backbone'],
       exports: 'Backbone.SubRoute'
-    },
-    'app': {
-      deps: [
-        'vendor/jquery-2.0.3.min', 
-        'vendor/underscore-min', 
-        'vendor/backbone',
-        'library/backbone.stickit',
-        'library/backbone.subroute',
-        'library/marionette/backbone.marionette'
-      ]
     }
   }
-});
-
-require(['app'], function (app) { 
-  app.expose('vent', _.extend({}, Backbone.Events));
-
-  // Pass in an initialization function to be run.
-  app.initialize(function () {    
-  //  var router = new MainRouter();
-    this.vent.trigger('initialized');
-  });
 });
