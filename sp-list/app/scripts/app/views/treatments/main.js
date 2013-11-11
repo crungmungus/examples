@@ -8,6 +8,12 @@ define(['app', 'text!templates/treatments/main.html'], function (app, template) 
 
     initialize : function () {
       this.template = template;
+    },
+
+    render : function () {
+      console.log(this)
+    	this.$el.html(_.template(this.template));
+    	return this.$el;
     }
   });
 

@@ -12,6 +12,10 @@ define(['app', 'routers/clinics', 'routers/treatments'], function (app, ClinicsR
     },
 
     invokeClinics : function (subroute) {
+      new ClinicsRouter('clinics/');
+    },
+
+    invokeTreatments : function (subroute) {
       new TreatmentsRouter('treatments/');
     }
   });
