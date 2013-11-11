@@ -6,12 +6,6 @@ define(function () {
 
 		initialize : function (func) {
 			func.apply(this);
-		},
-
-		expose : function (namespace, obj) {
-			if(!this[namespace]) {
-				this[namespace] = obj;
-			}
 		}
 	};
 });

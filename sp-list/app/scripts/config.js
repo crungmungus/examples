@@ -5,30 +5,29 @@ requirejs.config({
     routers : 'app/routers',
     models : 'app/models',
     collections : 'app/collections',
-    views: 'app/views'
+    views: 'app/views',
+    underscore : 'vendor/underscore-min',
+    jquery : 'vendor/jquery.min',
+    backbone: 'vendor/backbone',
+    subroute: 'library/backbone.subroute'
   },
 
   shim: {
-    'vendor/jquery-2.0.3.min': {
-      exports: '$'
-    },
-    'vendor/underscore-min': {
+    'underscore': {
       exports: '_'
     },
-    'vendor/backbone': {
-      deps: ['vendor/underscore-min'],
+    'backbone': {
+      deps: ['underscore', 'jquery'],
       exports: 'Backbone'
     },
     'library/marionette/backbone.marionette': {
-      deps: ['vendor/backbone'],
-      exports: 'Marionette'
-    },
-    'library/backbone.stickit' : {
-      deps: ['vendor/backbone'] 
+      deps: ['backbone']
     },
     'library/backbone.subroute' : {
-      deps: ['vendor/backbone'],
-      exports: 'Backbone.SubRoute'
+      deps: ['backbone']
+    },
+    'library/backbone.stickit' : {
+      deps: ['backbone']
     }
   }
 });
