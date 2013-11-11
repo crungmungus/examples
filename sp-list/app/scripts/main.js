@@ -6,6 +6,7 @@ requirejs.config({
 		models : 'app/models',
 		collections : 'app/collections',
 		views: 'app/views',
+		templates : 'app/templates',
 		underscore : 'vendor/underscore-min',
 		jquery : 'vendor/jquery.min',
 		backbone: 'vendor/backbone',
@@ -51,9 +52,13 @@ requirejs.config({
  *  we could initialize all of the presenters in one place and put them into
  *  the app namespace.
  */
-require(['app', 'routers/router'], function(app, Router) {
+require(['app', 'routers/router', 'views/layout'], function(app, Router, Layout) {
 	app.initialize(function () {
-		new Router();
+		app.layout = new Layout();
+		app.router = new Router();
+
+		$("body").prepend(app.layout.render().el);
+
 		Backbone.history.start();
 	});
 });

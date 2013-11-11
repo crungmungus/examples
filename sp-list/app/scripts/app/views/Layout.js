@@ -1,0 +1,15 @@
+define(['app','text!templates/layout.html'], function (app, template) {
+  var Layout = Backbone.Marionette.Layout.extend({
+    regions : {
+      main : '#main',
+      side : '#side'
+    },
+
+    initialize : function () {
+      this.template = _.template(template);
+      this.el.className = 'container';
+    }
+  });
+
+  return Layout;
+});

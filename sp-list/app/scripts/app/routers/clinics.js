@@ -6,10 +6,9 @@ define(['app', 'presenters/clinics'], function (app, Presenter) {
 
     root : function () {
       var presenter = new Presenter({
-
+        view : null,
+        service : null
       });
-
-      console.log(presenter);
     }
   });
 
