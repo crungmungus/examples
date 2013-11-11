@@ -1,4 +1,6 @@
 define(['app', 'presenters/clinics'], function (app, Presenter) {
+  'use strict';
+
   var Router = Backbone.SubRoute.extend({
     routes : {
       '' : 'root'

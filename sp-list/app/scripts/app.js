@@ -1,11 +1,22 @@
 define(function () {
-	return {
-		meta : {
-			version : '0.1a'
-		},
+  'use strict';
 
-		initialize : function (func) {
-			func.apply(this);
-		}
-	};
+  return {
+    meta : {
+      version : '0.1a'
+    },
+
+    extend : function (name, obj) {
+      if(!name) {
+        _.extend(this, obj);
+      } else {
+        this[name] = this[name] || obj;
+        _.extend(this[name], obj);
+      }
+    },
+
+    initialize : function (func) {
+      func.apply(this);
+    }
+  };
 });
