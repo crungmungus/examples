@@ -11,8 +11,8 @@ requirejs.config({
     templates : 'app/templates',
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
-    backbone: 'vendor/backbone',
-    subroute: 'library/backbone.subroute'
+    backbone : 'vendor/backbone',
+    subroute : 'library/backbone.subroute'
   },
 
   shim: {
@@ -35,11 +35,16 @@ requirejs.config({
       deps: ['backbone'],
       exports: 'Backbone'
     },
+    'library/backbone.courier' : {
+      deps: ['backbone'],
+      exports: 'Backbone'
+    },
     'app' : {
       deps : [
         'backbone',
         'library/backbone.stickit',
         'library/backbone.subroute',
+        'library/backbone.courier',
         'library/marionette/backbone.marionette'
       ]
     }
@@ -57,16 +62,17 @@ requirejs.config({
 require(['app', 'routers/router', 'views/layout'], function(app, Router, Layout) {
   'use strict';
 
-  app.extend('events', _.extend({}, Backbone.Events));
-
-  app.initialize(function () {
-    app.router = new Router();
-
+  app.addInitializer(function(options){
     app.layout = new Layout();
     app.layout.render();
 
-    // TODO: Tidy this bit up.
     $('body').prepend(app.layout.el);
+  });
+
+  app.addInitializer(function(options){
+    new Router();
     Backbone.history.start();
   });
+
+  app.start();
 });

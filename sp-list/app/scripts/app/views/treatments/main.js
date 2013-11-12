@@ -1,19 +1,37 @@
-define(['app', 'text!templates/treatments/main.html'], function (app, template) {
+/**
+ * Main treatments view.
+ * This view is intended to be used as housing for a number of sub views.
+ */
+define([
+  'app',
+  'views/treatments/list',
+  'text!templates/treatments/main.html'
+],
+function (app, ListView, template) {
   'use strict';
 
-  var View = Backbone.View.extend({
-    events : {
+  /**
+   * Things get strange from here as I need to insert a number of sub views.
+   */
+  var View = Backbone.Marionette.Layout.extend({
+    template : _.template(template),
 
+    id : 'treatments',
+
+    regions : {
+      list : '#list'
     },
 
     initialize : function () {
-      this.template = template;
-    },
+      /**
+       * At this point I have everything I need to create a 'list' sub view.
+       */
+      this.listView = new ListView({
+        collection : this.collection
+      });
 
-    render : function () {
-      console.log(this)
-    	this.$el.html(_.template(this.template));
-    	return this.$el;
+      // And render it?
+      this.list.show(this.listView);
     }
   });
 

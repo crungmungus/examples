@@ -1,7 +1,8 @@
-
 /*jslint browser: true, devel: true, plusplus: true, white: false, indent: 2 */
 
 (function (global) {
+	'use strict';
+
 	var DeviceList = function (el) {
 		this.el = el;
 
@@ -18,7 +19,7 @@
 		data.forEach(function (obj) {
 			this.el.appendChild(tmpl(obj));
 		}.bind(this));
-	};	
+	};
 
 	global.DeviceList = DeviceList;
 }(window));
