@@ -1,6 +1,7 @@
 /**
- * Main treatments view.
- * This view is intended to be used as housing for a number of sub views.
+ * Hybrid, main treatments view.
+ * This view is intended to be used as housing for a number of sub views and should
+ * mediate between the presenter and sub-views it contains.
  */
 define([
   'app',
@@ -22,6 +23,10 @@ function (app, ListView, template) {
     initialize : function () {
       this.listView = new ListView({
         collection : this.collection
+      });
+
+      this.listenTo(this.listView, 'itemview:selected', function () {
+        console.log(arguments);
       });
     },
 

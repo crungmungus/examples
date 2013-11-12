@@ -12,7 +12,7 @@ define(['app', 'views/treatments/main'], function (app, MainView) {
     },
 
     home : function () {
-      app.layout.main.show(this.view);
+      app.layout.main.show(this.view.render());
     }
   });
 

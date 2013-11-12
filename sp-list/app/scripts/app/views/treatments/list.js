@@ -1,7 +1,5 @@
 /**
- * A CompositeView extends from CollectionView to be used as a composite view for scenarios where it should
- * represent both a branch and leaf in a tree structure, or for scenarios where a collection needs to be
- * rendered within a wrapper template.
+ * Composite view that wraps around a list of treatments.
  */
 define([
   'app',
@@ -17,7 +15,22 @@ function (app, ListItem, template) {
     template : _.template(template),
 
     itemView : ListItem,
-    itemViewContainer : '.items'
+
+    itemViewContainer : '.items',
+
+    events : {
+      'itemview:click' : 'selected'
+    },
+
+    selected : function () {
+      console.log(arguments);
+    },
+
+    initialize : function () {
+      this.listenTo(this, 'itemview:selected', function () {
+        console.log('test');
+      })
+    }
   });
 
   return View;
