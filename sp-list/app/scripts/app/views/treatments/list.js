@@ -12,10 +12,12 @@ function (app, ListItem, template) {
   'use strict';
 
   var View = Backbone.Marionette.CompositeView.extend({
+    id : 'treatment-list',
+
     template : _.template(template),
 
     itemView : ListItem,
-    itemViewContainer : '.items',
+    itemViewContainer : '.items'
   });
 
   return View;
