@@ -1,8 +1,11 @@
-@media only screen and (max-width: 320px) {
-	
-}
-
+/**
+ * Most of the up-scaling can happen here at 480px.
+ * Lock everything at 640px there after and refactor these styles as we go along.
+ */
 @media only screen and (min-width: 480px) {
+	/**
+	 * Heading styles and general font overrides.
+	 */
 	h1 {
 		font-size: 44px;
 	}
@@ -15,14 +18,190 @@
 		font-size: 28px;
 	}
 
+	/**
+	 * Header overrides.
+	 */
+	#header {
+		height: 90px;
+
+		.find, .menu {
+			padding: 20px;
+		}
+
+		.find {
+			width: 50px;
+
+			a {
+				width: 48px; height:48px;
+			}
+		}
+
+		.logo {
+			img {
+				width: 228px;
+				max-width: 228px;
+			}
+		}
+
+		.menu {
+			width: 50px;
+
+			a {
+				height: 40px;
+			}
+		}
+	}
+
+	/**
+	 * Offer listings.
+	 */
+	.offers-list {
+		.offer {
+			margin-bottom: 20px; padding-top: 20px;
+
+			.left {
+				width : 130px;
+			}
+
+			.info {
+				padding-left: 20px;
+
+				.expires {
+					font-size: 24px; 
+				}
+				
+				.details {
+					font-size: 30px; line-height: 30px;
+					display: inline-block;
+					max-height: 100px;
+					margin-top: 10px;
+				}
+
+				.merchant {
+					font-size: 24px; line-height: 20px;
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+	/**
+	 * Main Navigation.
+	 */
+	#main-nav {
+		a {
+			font-size: 32px;
+		}
+	}
+
+	/**
+	 * Search.
+	 */
 	.search {
+		padding: 20px;
+
 		.input-wrapper {
 			height: 80px;
+
+			input[type="text"] {
+				font-size: 28px;
+			}
 		}
 
 		button {
 			width: 80px;
 			font-size: 64px;
+		}
+	}
+
+	/**
+	 * Footer.
+	 */
+	#footer {
+		.goto-top {
+			font-size: 30px;
+			padding: 20px 0;
+		}
+
+		.links {
+			padding: 20px;
+			
+			a {
+				font-size: 20px;
+			}
+		}
+
+		.copy {
+			padding: 20px;
+		}
+
+		ul {
+			li {
+				padding: 10px;
+			}
+		}
+	}
+
+	/**
+	 * IOS slider rules.
+	 */
+	.iosslider {
+		height: 168px !important;
+
+		.slide {
+			width: 150px !important; height: 150px !important;
+		}
+	}
+
+	/**
+	 * General overrides.
+	 */
+	.exclusive {
+		font-size: 18px;
+	}
+
+	.view-all {
+		font-size: 34px;
+	}
+
+	.placeholder {
+		font-size: 28px;
+	}
+
+	::-webkit-input-placeholder {
+		.placeholder;
+	} 
+
+	:-moz-placeholder {
+		.placeholder;
+	} 
+
+	::-moz-placeholder{
+		.placeholder;
+	} 
+
+	:-ms-input-placeholder {  
+		.placeholder;
+	}	
+}
+
+@media only screen and (min-width: 640px) {
+	#header {
+		.logo {
+			img {
+				width: 228px;
+			}
+		}
+	}
+
+		/**
+	 * Footer.
+	 */
+	#footer {
+		.links {
+			a {
+				font-size: 30px;
+			}
 		}
 	}
 }

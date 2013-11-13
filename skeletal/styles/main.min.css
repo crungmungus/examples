@@ -664,6 +664,7 @@ p {
 }
 #header .logo img {
   margin: 0 auto;
+  max-width: 150px;
   width: 70%;
 }
 .menu {
@@ -849,7 +850,7 @@ p {
   float: right;
 }
 #footer .links ul li {
-  padding: 10px;
+  padding: 5px;
 }
 #footer .copy {
   padding: 10px;
@@ -865,10 +866,14 @@ p {
   border-bottom: 10px solid #404040;
   position: absolute;
 }
-@media only screen and (max-width: 320px) {
-  
-}
+/**
+ * Most of the up-scaling can happen here at 480px.
+ * Lock everything at 640px there after and refactor these styles as we go along.
+ */
 @media only screen and (min-width: 480px) {
+  /**
+  	 * Heading styles and general font overrides.
+  	 */
   h1 {
     font-size: 44px;
   }
@@ -878,11 +883,145 @@ p {
   h3 {
     font-size: 28px;
   }
+  /**
+  	 * Header overrides.
+  	 */
+  #header {
+    height: 90px;
+  }
+  #header .find,
+  #header .menu {
+    padding: 20px;
+  }
+  #header .find {
+    width: 50px;
+  }
+  #header .find a {
+    width: 48px;
+    height: 48px;
+  }
+  #header .logo img {
+    width: 228px;
+    max-width: 228px;
+  }
+  #header .menu {
+    width: 50px;
+  }
+  #header .menu a {
+    height: 40px;
+  }
+  /**
+  	 * Offer listings.
+  	 */
+  .offers-list .offer {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .offers-list .offer .left {
+    width: 130px;
+  }
+  .offers-list .offer .info {
+    padding-left: 20px;
+  }
+  .offers-list .offer .info .expires {
+    font-size: 24px;
+  }
+  .offers-list .offer .info .details {
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+    max-height: 100px;
+    margin-top: 10px;
+  }
+  .offers-list .offer .info .merchant {
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  /**
+  	 * Main Navigation.
+  	 */
+  #main-nav a {
+    font-size: 32px;
+  }
+  /**
+  	 * Search.
+  	 */
+  .search {
+    padding: 20px;
+  }
   .search .input-wrapper {
     height: 80px;
+  }
+  .search .input-wrapper input[type="text"] {
+    font-size: 28px;
   }
   .search button {
     width: 80px;
     font-size: 64px;
+  }
+  /**
+  	 * Footer.
+  	 */
+  #footer .goto-top {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+  #footer .links {
+    padding: 20px;
+  }
+  #footer .links a {
+    font-size: 20px;
+  }
+  #footer .copy {
+    padding: 20px;
+  }
+  #footer ul li {
+    padding: 10px;
+  }
+  /**
+  	 * IOS slider rules.
+  	 */
+  .iosslider {
+    height: 168px !important;
+  }
+  .iosslider .slide {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  /**
+  	 * General overrides.
+  	 */
+  .exclusive {
+    font-size: 18px;
+  }
+  .view-all {
+    font-size: 34px;
+  }
+  .placeholder {
+    font-size: 28px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 28px;
+  }
+  :-moz-placeholder {
+    font-size: 28px;
+  }
+  ::-moz-placeholder {
+    font-size: 28px;
+  }
+  :-ms-input-placeholder {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  #header .logo img {
+    width: 228px;
+  }
+  /**
+  	 * Footer.
+  	 */
+  #footer .links a {
+    font-size: 30px;
   }
 }
