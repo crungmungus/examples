@@ -25,7 +25,7 @@
 		height: 90px;
 
 		.find, .menu {
-			padding: 20px;
+			padding: @base_gutter * 2;
 		}
 
 		.find {
@@ -74,12 +74,12 @@
 					font-size: 30px; line-height: 30px;
 					display: inline-block;
 					max-height: 100px;
-					margin-top: 10px;
+					margin-top: @base_gutter;
 				}
 
 				.merchant {
 					font-size: 24px; line-height: 20px;
-					margin-top: 20px;
+					margin-top: @base_gutter * 2
 				}
 			}
 		}
@@ -98,13 +98,24 @@
 	 * Search.
 	 */
 	.search {
-		padding: 20px;
+		padding: @base_gutter * 2;
 
 		.input-wrapper {
 			height: 80px;
 
 			input[type="text"] {
 				font-size: 28px;
+			}
+		}
+
+		.near-me {
+			margin-top: @base_gutter;
+			font-size: 30px; line-height: 80px;
+
+			.icon-near-me {
+				position: absolute;
+				left: 0; top: 10px;
+				font-size: 60px;
 			}
 		}
 
@@ -120,11 +131,11 @@
 	#footer {
 		.goto-top {
 			font-size: 30px;
-			padding: 20px 0;
+			padding: @base_gutter * 2 0;
 		}
 
 		.links {
-			padding: 20px;
+			padding: @base_gutter * 2;
 			
 			a {
 				font-size: 20px;
@@ -132,7 +143,7 @@
 		}
 
 		.copy {
-			padding: 20px;
+			padding: @base_gutter * 2;
 		}
 
 		ul {

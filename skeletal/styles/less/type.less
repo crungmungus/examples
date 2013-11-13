@@ -12,20 +12,20 @@ h1, h2, h3, h4, h5 {
 h1 {
 	font-size: 33px;
 	font-weight: 300;
-	color: #404040;
+	color: @gray_dark;
 }
 
 h2 {
 	font-size: 28px;
 	font-weight: normal;
-	color: #404040;
+	color: @gray_dark;
 
 }
 
 h3 {
 	font-size: 18px;
 	font-weight: normal;
-	color: #a5a5a5;
+	color: @gray;
 }
 
 h4 {
@@ -43,7 +43,7 @@ p {
 .placeholder {
 	font-size: 14px;
 	font-weight: normal;
-	color: #b7b7b7;
+	color: @gray_light;
 }
 
 ::-webkit-input-placeholder{
@@ -73,12 +73,18 @@ p {
 	input[type="text"] {
 		font-size: 14px;
 	}
+
+	.near-me {
+		text-decoration: none;
+		color: @blue;
+		font-size: 15px; line-height: 40px;
+	}
 }
 
 .offer {
 	.expires {
 		font-size: 12px; font-weight: normal;
-		color: #a5a5a5;
+		color: @gray;
 	}
 
 	.details {
@@ -90,7 +96,7 @@ p {
 
 	.merchant {
 		font-size: 12px; font-weight: normal;
-		color: #404040;
+		color: @gray_dark;
 		line-height: 10px;
 	}
 }
@@ -131,7 +137,7 @@ p {
 
 	.copy {
 		font-size: 13px;
-		color: #a5a5a5;
+		color: @gray;
 		text-align: center;
 	}
 
@@ -139,7 +145,7 @@ p {
 		a {
 			text-decoration : none;
 			font-size: 15px; font-weight: normal;
-			color: #a5a5a5;
+			color: @gray;
 
 			&.primary {
 				color: #fff;

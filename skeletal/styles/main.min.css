@@ -472,6 +472,12 @@ p {
 .search input[type="text"] {
   font-size: 14px;
 }
+.search .near-me {
+  text-decoration: none;
+  color: #009ed9;
+  font-size: 15px;
+  line-height: 40px;
+}
 .offer .expires {
   font-size: 12px;
   font-weight: normal;
@@ -761,6 +767,19 @@ p {
   height: inherit;
   width: 40px;
 }
+.search .near-me {
+  text-align: center;
+  position: relative;
+  margin-top: 5px;
+  background-color: #f3f3f3;
+  display: block;
+}
+.search .near-me .icon-near-me {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 30px;
+}
 .offers-list {
   list-style: none;
   margin: 0;
@@ -955,6 +974,17 @@ p {
   }
   .search .input-wrapper input[type="text"] {
     font-size: 28px;
+  }
+  .search .near-me {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  .search .near-me .icon-near-me {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 60px;
   }
   .search button {
     width: 80px;
