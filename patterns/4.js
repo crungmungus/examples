@@ -1,4 +1,4 @@
-// Bring in an application object (our first mediator?)
+/*jslint browser: true, devel: true, plusplus: true, white: false, indent: 2 */
 
 (function (global) {
   'use strict';
@@ -22,17 +22,19 @@
   global.DeviceList = DeviceList;
 } (window));
 
-// Lastly, instantiate and load in data.
-var dm = new DeviceList(document.getElementById('devices'));
 
-dm.initialize(function () {
-  console.log(this);
-});
+$(function () {
+  var dm = new DeviceList(document.getElementById('devices'));
 
-// Pass in data with a decorator.
-dm.list(devices, function (obj) {
-  var li = document.createElement('li');
-      li.innerText = obj.name;
+  dm.initialize(function () {
+    console.log(this);
+  });
 
-  return li;
+  // Pass in data with a decorator.
+  dm.list(devices, function (obj) {
+    var li = document.createElement('li');
+        li.innerText = obj.name;
+
+    return li;
+  });
 });

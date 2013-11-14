@@ -1,3 +1,47 @@
+var events = {
+  "events": [
+  {
+    "clinicId": 126990,
+    "staffId": 179104,
+    "status": 15,
+    "startTime": "2013-11-13 09:15:00",
+    "duration": 900,
+    "id": 12384,
+    "created": "2013-11-13 11:04:46",
+    "updated": "2013-11-13 11:04:46"
+  },
+  {
+    "clinicId": 126990,
+    "staffId": 179104,
+    "status": 10,
+    "startTime": "2013-11-14 09:00:00",
+    "duration": 15300,
+    "id": 12380,
+    "created": "2013-11-13 10:22:34",
+    "updated": "2013-11-13 10:22:34"
+  },
+  {
+    "clinicId": 126990,
+    "staffId": 179104,
+    "status": 10,
+    "startTime": "2013-11-15 10:30:00",
+    "duration": 900,
+    "id": 12383,
+    "created": "2013-11-13 11:04:46",
+    "updated": "2013-11-13 11:04:46"
+  },
+  {
+    "clinicId": 126990,
+    "staffId": 179104,
+    "status": 10,
+    "startTime": "2013-11-22 14:45:00",
+    "duration": 900,
+    "id": 12381,
+    "created": "2013-11-13 10:22:42",
+    "updated": "2013-11-13 10:22:42"
+  }]
+};
+
 var treatments = [{
   "id": 1445056,
   "procId": 566,

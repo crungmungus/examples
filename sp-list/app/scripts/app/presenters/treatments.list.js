@@ -1,7 +1,7 @@
 /**
  * The supervising presenter pattern attempts to manage "complex" UI interactions.
  */
-define(['app', 'views/treatments/main'], function (app, MainView) {
+define(['app', 'views/treatments/main', 'services/treatments'], function (app, MainView, service) {
   'use strict';
 
   var Presenter = Backbone.Marionette.Controller.extend({
@@ -9,10 +9,12 @@ define(['app', 'views/treatments/main'], function (app, MainView) {
       this.view = new MainView({
         collection : new Backbone.Collection(treatments)
       });
+
+      this.listenTo(this.view, 'saved', this.save);
     },
 
-    home : function () {
-      app.layout.main.show(this.view.render());
+    save : function () {
+      var op = service.save();
     }
   });
 

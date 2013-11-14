@@ -4,11 +4,11 @@ requirejs.config({
   paths: {
     text: 'vendor/text',
     presenters: 'app/presenters',
+    services: 'app/services',
     routers : 'app/routers',
     models : 'app/models',
     collections : 'app/collections',
     views: 'app/views',
-    templates : 'app/templates',
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
     backbone : 'vendor/backbone',

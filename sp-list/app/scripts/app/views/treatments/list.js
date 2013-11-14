@@ -16,21 +16,7 @@ function (app, ListItem, template) {
 
     itemView : ListItem,
 
-    itemViewContainer : '.items',
-
-    events : {
-      'itemview:click' : 'selected'
-    },
-
-    selected : function () {
-      console.log(arguments);
-    },
-
-    initialize : function () {
-      this.listenTo(this, 'itemview:selected', function () {
-        console.log('test');
-      })
-    }
+    itemViewContainer : '.items'
   });
 
   return View;
