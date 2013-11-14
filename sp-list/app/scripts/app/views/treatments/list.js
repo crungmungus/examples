@@ -3,7 +3,7 @@
  */
 define([
   'app',
-  'views/treatments/list-item',
+  'views/treatments/list.item',
   'text!templates/treatments/list.html'
 ],
 function (app, ListItem, template) {
