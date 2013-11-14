@@ -7,7 +7,7 @@ define(['app', 'views/treatments/main', 'services/treatments'], function (app, M
   var Presenter = Backbone.Marionette.Controller.extend({
     initialize : function () {
       this.view = new MainView({
-        collection : new Backbone.Collection(treatments)
+        collection : new Backbone.Collection(procedures)
       });
 
       this.listenTo(this.view, 'saved', this.save);

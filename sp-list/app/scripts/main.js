@@ -39,6 +39,10 @@ requirejs.config({
       deps: ['backbone'],
       exports: 'Backbone'
     },
+    'library/utils' : {
+      deps: ['underscore'],
+      exports: 'app.utils'
+    },
     'app' : {
       deps : [
         'backbone',
@@ -59,12 +63,13 @@ requirejs.config({
  *  we could initialize all of the presenters in one place and put them into
  *  the app namespace.
  */
-require(['app', 'routers/router', 'views/layout'], function(app, Router, Layout) {
+require(['app', 'library/utils', 'routers/router', 'views/layout'], function(app, utils, Router, Layout) {
   'use strict';
 
   app.addInitializer(function(options){
     app.layout = new Layout();
     app.layout.render();
+    app.utils = utils;
 
     $('body').prepend(app.layout.el);
   });

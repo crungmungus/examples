@@ -6,9 +6,10 @@
 define([
   'app',
   'views/treatments/list',
+  'views/partials/directory',
   'text!templates/treatments/main.html'
 ],
-function (app, ListView, template) {
+function (app, ListView, Directory, template) {
   'use strict';
 
   var View = Backbone.Marionette.Layout.extend({
@@ -17,6 +18,7 @@ function (app, ListView, template) {
     id : 'treatments',
 
     regions : {
+      lookup : '#lookup',
       list : '#list'
     },
 
@@ -44,6 +46,9 @@ function (app, ListView, template) {
 
     onRender: function () {
       this.list.show(this.listView);
+
+      this.directory = new Directory();
+      this.lookup.show(this.directory);
     }
   });
 
