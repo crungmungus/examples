@@ -1,3 +1,528 @@
+var history = [{
+  "id": "outgoing_sms$7014695",
+  "leadCommentId": 7014695,
+  "message": "SMS sent: test THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:16:19",
+  "created": "2013-11-20 15:16:19",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014694",
+  "leadCommentId": 7014694,
+  "message": "SMS sent: no no no! THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:15:00",
+  "created": "2013-11-20 15:15:00",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014693",
+  "leadCommentId": 7014693,
+  "message": "SMS sent: text THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:13:18",
+  "created": "2013-11-20 15:13:18",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014692",
+  "leadCommentId": 7014692,
+  "message": "SMS sent: text THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:13:12",
+  "created": "2013-11-20 15:13:12",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014691",
+  "leadCommentId": 7014691,
+  "message": "SMS sent: text THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:13:02",
+  "created": "2013-11-20 15:13:02",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014690",
+  "leadCommentId": 7014690,
+  "message": "SMS sent: test 5 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:10:19",
+  "created": "2013-11-20 15:10:19",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014689",
+  "leadCommentId": 7014689,
+  "message": "SMS sent: test 3 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:09:51",
+  "created": "2013-11-20 15:09:51",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014688",
+  "leadCommentId": 7014688,
+  "message": "SMS sent: testing again 1 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:08:04",
+  "created": "2013-11-20 15:08:04",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014687",
+  "leadCommentId": 7014687,
+  "message": "SMS sent: testing again 1 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:07:51",
+  "created": "2013-11-20 15:07:51",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014686",
+  "leadCommentId": 7014686,
+  "message": "SMS sent: testing again 1 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:07:06",
+  "created": "2013-11-20 15:07:06",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014685",
+  "leadCommentId": 7014685,
+  "message": "SMS sent: testing again THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:06:49",
+  "created": "2013-11-20 15:06:49",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014684",
+  "leadCommentId": 7014684,
+  "message": "SMS sent: test THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:06:19",
+  "created": "2013-11-20 15:06:19",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014683",
+  "leadCommentId": 7014683,
+  "message": "SMS sent: testing refresh. THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:04:22",
+  "created": "2013-11-20 15:04:22",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014682",
+  "leadCommentId": 7014682,
+  "message": "SMS sent: testing refresh. THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:04:12",
+  "created": "2013-11-20 15:04:12",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014681",
+  "leadCommentId": 7014681,
+  "message": "SMS sent: testing refresh. THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:04:03",
+  "created": "2013-11-20 15:04:03",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014680",
+  "leadCommentId": 7014680,
+  "message": "SMS sent: test THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 15:01:42",
+  "created": "2013-11-20 15:01:42",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014679",
+  "leadCommentId": 7014679,
+  "message": "SMS sent: wow. THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:59:20",
+  "created": "2013-11-20 14:59:20",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014678",
+  "leadCommentId": 7014678,
+  "message": "SMS sent: add to hsitory THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:58:18",
+  "created": "2013-11-20 14:58:18",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014677",
+  "leadCommentId": 7014677,
+  "message": "SMS sent: testing 123 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:57:07",
+  "created": "2013-11-20 14:57:07",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014676",
+  "leadCommentId": 7014676,
+  "message": "SMS sent: should work THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:37:32",
+  "created": "2013-11-20 14:37:32",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014675",
+  "leadCommentId": 7014675,
+  "message": "SMS failed: sms faileD? THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:33:13",
+  "created": "2013-11-20 14:33:13",
+  "direction": "fromClinic"
+},
+{
+  "id": "outgoing_sms$7014674",
+  "leadCommentId": 7014674,
+  "message": "SMS failed: testing 123 THIS TEXT NUMBER CAN'T ACCEPT REPLIES at 2013-11-20 14:32:19",
+  "created": "2013-11-20 14:32:19",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_confirmed$12437",
+  "message": "Respond to appointment request.",
+  "created": "2013-11-14 17:03:38",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$1017153",
+  "message": "",
+  "created": "2013-11-14 17:01:48",
+  "direction": "fromContact",
+  "audio": "https:\/\/api.twilio.com\/2010-04-01\/Accounts\/ACbe0d193ea30994f2a805bfde5981c0db\/Recordings\/RE1f70df25b1207bef867b488c28f69a34.mp3"
+},
+{
+  "id": "appointment_confirmed$12435",
+  "message": "Respond to appointment request.",
+  "created": "2013-11-14 16:47:17",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$12435",
+  "message": "this is a new booking",
+  "created": "2013-11-14 16:46:18",
+  "direction": "fromContact"
+},
+{
+  "id": "sms_reminder$11965",
+  "leadCommentId": 6939167,
+  "message": " at 2013-11-10 10:29:59",
+  "created": "2013-11-10 10:29:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_confirmed$11965",
+  "message": "Respond to appointment request.",
+  "created": "2013-11-07 10:23:15",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$11965",
+  "message": "sadada",
+  "created": "2013-11-07 10:22:15",
+  "direction": "fromContact"
+},
+{
+  "id": "incoming_email$3221778",
+  "subject": "",
+  "message": "test email to clinic",
+  "created": "2013-11-06 15:15:41",
+  "fromEmail": "wcpatient@users.whatclinic.com",
+  "toEmail": "gdu-test@whatclinic.com",
+  "direction": "fromContact"
+},
+{
+  "id": "user_updated_message$6901299",
+  "leadCommentId": 6901299,
+  "message": "asdaslijnijaksd",
+  "created": "2013-11-05 17:20:09",
+  "direction": "fromContact"
+},
+{
+  "id": "sms_reminder$10125",
+  "leadCommentId": 6736126,
+  "message": " at 2013-10-15 16:45:59",
+  "created": "2013-10-15 16:45:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "sms_reminder$10128",
+  "leadCommentId": 6735861,
+  "message": " at 2013-10-15 16:15:59",
+  "created": "2013-10-15 16:15:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_confirmed$10128",
+  "message": "Respond to appointment request.",
+  "created": "2013-10-15 16:00:33",
+  "direction": "fromClinic"
+},
+{
+  "id": "sms_reminder$10126",
+  "leadCommentId": 6735745,
+  "message": " at 2013-10-15 15:59:59",
+  "created": "2013-10-15 15:59:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_confirmed$10127",
+  "message": "Respond to appointment request.",
+  "created": "2013-10-15 15:59:55",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$10128",
+  "message": "asdadasda",
+  "created": "2013-10-15 15:59:33",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_request_webform$10127",
+  "message": "\\a\\zx\\",
+  "created": "2013-10-15 15:58:55",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$10126",
+  "message": "Respond to appointment request.",
+  "created": "2013-10-15 15:48:21",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$10126",
+  "message": "asdada",
+  "created": "2013-10-15 15:47:22",
+  "direction": "fromContact"
+},
+{
+  "id": "sms_reminder$10124",
+  "leadCommentId": 6735616,
+  "message": " at 2013-10-15 15:45:59",
+  "created": "2013-10-15 15:45:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "sms_reminder$10123",
+  "leadCommentId": 6735550,
+  "message": " at 2013-10-15 15:37:59",
+  "created": "2013-10-15 15:37:59",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_confirmed$10113",
+  "message": "Respond to appointment request.",
+  "created": "2013-10-15 10:04:29",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$10113",
+  "message": "sasada",
+  "created": "2013-10-15 10:03:29",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$9663",
+  "message": "Respond to appointment request.",
+  "created": "2013-10-03 10:34:42",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$9663",
+  "message": "this is a new booking",
+  "created": "2013-10-03 10:33:42",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$8646",
+  "message": "Respond to appointment request.",
+  "created": "2013-09-16 09:48:01",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$8646",
+  "message": "idsaaodans131231",
+  "created": "2013-09-16 09:47:01",
+  "direction": "fromContact"
+},
+{
+  "id": "incoming_email$2156096",
+  "subject": "AVA TEST CLINIC",
+  "message": "The Internet (archaic Inter-net) also know as the Hinternet, the Tinternet<br\/>and A Series of Tubes is a communication tool used by the world over where<br\/>people can come together to bitch about movies and share pornography with<br\/>one another.<br\/>It is made of, but not limited to, a series of tubes, telegraph wires, pony<br\/>expresses, hobo signs, tortoise shells, subliminal messiging monitors,<br\/>smoke signals, Oscar Wilde quotes and warning beacons of Gondor, not to be<br\/>confused with a big truck",
+  "created": "2013-08-30 10:00:24",
+  "fromEmail": "wcpatient@users.whatclinic.com",
+  "toEmail": "gdu-test@whatclinic.com",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$7393",
+  "message": "Respond to appointment request.",
+  "created": "2013-08-30 09:58:17",
+  "direction": "fromClinic"
+},
+{
+  "id": "appointment_request_webform$7393",
+  "message": "i want to see a doctor",
+  "created": "2013-08-30 09:57:17",
+  "direction": "fromContact"
+},
+{
+  "id": "incoming_email$1999388",
+  "subject": "Fwd:",
+  "message": "The Internet (archaic Inter-net) also know as the Hinternet, the Tinternet<br\/>and A Series of Tubes is a communication tool used by the world over where<br\/>people can come together to bitch about movies and share pornography with<br\/>one another.<br\/>It is made of, but not limited to, a series of tubes, telegraph wires, pony<br\/>expresses, hobo signs, tortoise shells, subliminal messiging monitors,<br\/>smoke signals, Oscar Wilde quotes and warning beacons of Gondor, not to be<br\/>confused with a big truck.",
+  "created": "2013-08-09 16:57:40",
+  "fromEmail": "wcpatient@users.whatclinic.com",
+  "toEmail": "gdu-test@whatclinic.com",
+  "direction": "fromContact"
+},
+{
+  "id": "incoming_email$1996641",
+  "subject": "",
+  "message": "WhatClinic.com<br\/>A better way to choose a clinic<br\/>==============================================<br\/>                                <br\/>Reply from WCPatient<br\/>Dentist Consultation<br\/>==============================================<br\/>                                <br\/>The Internet (archaic Inter-net) also know as the Hinternet, the Tinternet<br\/>and A Series of Tubes is a communication tool used by the world over where<br\/>people can come together to bitch about movies and share pornography with<br\/>one another.<br\/>It is made of, but not limited to, a series of tubes, telegraph wires, pony<br\/>expresses, hobo signs, tortoise shells, subliminal messiging monitors,<br\/>smoke signals, Oscar Wilde quotes and warning beacons of Gondor, not to be<br\/>confused with a big truck.<br\/>+353 44 931 0839 (Eight Digit Code: 38150388)<br\/><br\/>==============================================<br\/>WhatClinic.com<br\/>Tel: + 353 1 525 3594<br\/>Email: support@whatclinic.com<br\/>Website: http:\/\/www.whatclinic.com<br\/>",
+  "created": "2013-08-09 10:05:08",
+  "fromEmail": "wcpatient@users.whatclinic.com",
+  "toEmail": "gdu-test@whatclinic.com",
+  "direction": "fromContact"
+},
+{
+  "id": "incoming_email$1996634",
+  "subject": "",
+  "message": "WhatClinic.com<br\/>A better way to choose a clinic<br\/>==============================================<br\/>                                <br\/>Reply from WCPatient<br\/>Dentist Consultation<br\/>==============================================<br\/>                                <br\/>The Internet (archaic Inter-net) also know as the Hinternet, the Tinternet<br\/>and A Series of Tubes is a communication tool used by the world over where<br\/>people can come together to bitch about movies and share pornography with<br\/>one another.<br\/>It is made of, but not limited to, a series of tubes, telegraph wires, pony<br\/>expresses, hobo signs, tortoise shells, subliminal messiging monitors,<br\/>smoke signals, Oscar Wilde quotes and warning beacons of Gondor, not to be<br\/>confused with a big truck.<br\/>+353 44 931 0839 (Eight Digit Code: 38150388)<br\/><br\/>==============================================<br\/>WhatClinic.com<br\/>Tel: + 353 1 525 3594<br\/>Email: support@whatclinic.com<br\/>Website: http:\/\/www.whatclinic.com<br\/>",
+  "created": "2013-08-09 10:03:34",
+  "fromEmail": "wcpatient@users.whatclinic.com",
+  "toEmail": "gdu-test@whatclinic.com",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$5598",
+  "message": "Updated Message - asdasdas",
+  "created": "2013-08-01 16:27:14",
+  "direction": "fromClinic"
+},
+{
+  "id": "user_updated_message$6180207",
+  "leadCommentId": 6180207,
+  "message": "asdasdas",
+  "created": "2013-08-01 16:27:14",
+  "direction": "fromContact"
+},
+{
+  "id": "user_updated_message$6117396",
+  "leadCommentId": 6117396,
+  "message": "update 6",
+  "created": "2013-07-24 11:29:16",
+  "direction": "fromContact"
+},
+{
+  "id": "user_updated_message$6116811",
+  "leadCommentId": 6116811,
+  "message": "update 5",
+  "created": "2013-07-24 10:26:43",
+  "direction": "fromContact"
+},
+{
+  "id": "user_updated_message$6116791",
+  "leadCommentId": 6116791,
+  "message": "update 4",
+  "created": "2013-07-24 10:23:32",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$5018",
+  "message": "Call Patient",
+  "created": "2013-07-24 09:30:58",
+  "direction": "fromClinic"
+},
+{
+  "id": "user_updated_message$6116292",
+  "leadCommentId": 6116292,
+  "message": "jsnjsadfjsdalksdffd",
+  "created": "2013-07-24 09:30:58",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$5014",
+  "message": "Call Patient",
+  "created": "2013-07-24 09:18:29",
+  "direction": "fromClinic"
+},
+{
+  "id": "user_updated_message$6116210",
+  "leadCommentId": 6116210,
+  "message": "sdihasdjaisdjfasjdfsdjf",
+  "created": "2013-07-24 09:18:29",
+  "direction": "fromContact"
+},
+{
+  "id": "contact_phonecall$882503",
+  "message": "",
+  "created": "2013-07-23 17:05:42",
+  "direction": "fromContact",
+  "audio": "https:\/\/api.twilio.com\/2010-04-01\/Accounts\/AC7154ce71032413f855004896bd01befc\/Recordings\/REa40fdaa33900e6bce558e627e581d7b3.mp3"
+},
+{
+  "id": "appointment_confirmed$4999",
+  "message": "Call Patient",
+  "created": "2013-07-23 16:59:33",
+  "direction": "fromClinic"
+},
+{
+  "id": "user_updated_message$6111654",
+  "leadCommentId": 6111654,
+  "message": "sahdjasdfkjsdfjsfkjsdbfa",
+  "created": "2013-07-23 16:59:33",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$4998",
+  "message": "Respond to appointment request.",
+  "created": "2013-07-23 16:30:39",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$882437",
+  "message": "",
+  "created": "2013-07-23 16:30:38",
+  "direction": "fromContact",
+  "audio": "https:\/\/api.twilio.com\/2010-04-01\/Accounts\/AC7154ce71032413f855004896bd01befc\/Recordings\/RE3d5c2d1ed7522f6b83df9eb92dde3053.mp3"
+},
+{
+  "id": "contact_phonecall$877447",
+  "message": "",
+  "created": "2013-07-18 16:47:50",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$4583",
+  "message": "Confirm appointment. ",
+  "created": "2013-07-12 11:54:19",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$869588",
+  "message": "",
+  "created": "2013-07-12 11:54:19",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$4570",
+  "message": "Confirm appointment. ",
+  "created": "2013-07-12 11:42:27",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$869545",
+  "message": "",
+  "created": "2013-07-12 11:42:27",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$4449",
+  "message": "Confirm appointment. ",
+  "created": "2013-07-11 15:39:52",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$868853",
+  "message": "",
+  "created": "2013-07-11 15:39:52",
+  "direction": "fromContact"
+},
+{
+  "id": "appointment_confirmed$4448",
+  "message": "Confirm appointment. ",
+  "created": "2013-07-11 15:30:41",
+  "direction": "fromClinic"
+},
+{
+  "id": "contact_phonecall$868837",
+  "message": "",
+  "created": "2013-07-11 15:30:41",
+  "direction": "fromContact"
+},
+{
+  "id": "user_enquiry$564942",
+  "leadCommentId": 5930134,
+  "procedure": "Dentist Consultation",
+  "message": "TEST ENQUIRY",
+  "created": "2013-06-27 09:27:56",
+  "direction": "historyItemLeft"
+}];
+
 var treatments = [{
   "id": 1445056,
   "procId": 566,

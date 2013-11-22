@@ -1,0 +1,35 @@
+/**
+ * Message box styles for SMS gateway etc.
+ */
+#message-box {
+  position: relative;
+  overflow: hidden;
+
+  textarea {
+    width: 100%;
+    border: 1px solid @msgBoxBorderColor;
+  }
+
+  .to {
+    display: inline-block;
+    margin-right: @baseGutter / 2;
+    vertical-align: text-bottom;
+  }
+
+  .recipient {
+    .inline-middle;
+  }
+
+  .remaining {
+    display: inline;
+    float: left;
+
+    &.warning {
+      color: @avaRed;
+    }
+  }
+
+  button {
+    float: right;
+  }
+}

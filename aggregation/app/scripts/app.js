@@ -68,4 +68,54 @@ _.each(treatments, function(treatment) {
 });
 
 // Tree is complete.
-console.log(root);
+// console.log(root);
+
+
+/**
+ * If we're looking to normalize a group of objects by a set of common fields.
+ * something like this:
+ */
+var HistoryItem = function (func) {
+  this.initialize.apply(this, func.call(this));
+};
+
+var p = HistoryItem.prototype;
+
+p.initialize = function (id, message) {
+  this.id = id;
+  this.message = message;
+}
+
+/*
+var history = _.map(history, function (h) {
+  return new HistoryItem(function () {
+    return _.values(_.pick(h, 'id', 'message'));
+  });
+});
+*/
+//console.log(history);
+
+// What if we had a mixed bag of objects with both common and differing properties/methods?
+// Decorators? I don't know how to decorate a constructor without passing in a method.
+var HistoryItem = function () {
+  //console.log(arguments);
+};
+
+// Compose allows you to chain return values from the inside out.
+var f = function (props) {
+  return new HistoryItem(props);
+}
+
+var h = _.compose(f, function (props) {
+  return _.values(_.pick(props, 'id', 'message'));
+});
+
+_.each(history, function (item) {
+  h(item);
+});
+
+
+
+_.each(history, function (item) {
+
+});

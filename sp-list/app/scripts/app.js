@@ -1,5 +1,11 @@
 define(function () {
   'use strict';
 
-  return new Backbone.Marionette.Application();
+  /**
+   */
+  var WhatAppointment = Marionette.Application.extend({
+
+  });
+
+  return new WhatAppointment();
 });

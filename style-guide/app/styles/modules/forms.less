@@ -1,0 +1,32 @@
+/**
+ * Overrides and custom rules for forms.
+ */
+
+textarea, select, input {
+  border-radius : 0 !important;
+  .border-box;
+}
+
+input {
+  min-height: @inputMinHeight;
+}
+
+textarea {
+  outline: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.form-horizontal {
+  .skinny;
+
+  .control-label {
+    padding-right: @baseGutter * 2;
+    text-align: left;
+  }
+}
+
+.help-error {
+  display: block;
+  color: @avaRed;
+}

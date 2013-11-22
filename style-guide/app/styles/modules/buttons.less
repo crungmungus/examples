@@ -1,0 +1,52 @@
+.btn-wrapper {
+  margin-top: @baseGutter * 2;
+  &.right {
+    text-align: right;
+  }
+}
+
+/* FIXME: Change to [class=] style selector. */
+.btn {
+  outline: none !important;
+  padding: 8px;
+  border: 1px solid @avaGreen;
+  .border-radius(30px);
+
+
+  &.action {
+    color: white;
+    .positive-gradient;
+
+    &:hover {
+      .gradient(@avaGreenLighter, @avaGreenDark);
+    }
+  }
+
+  &.cancel {
+    margin-left: @baseGutter / 2;
+    color: black;
+    .gradient;
+    border: 1px solid @avaGray;
+
+    &:hover {
+      .gradient(@avaGrayLighter, @avaGray);
+    }
+  }
+}
+
+.btn {
+  min-width: 160px;
+
+  &.tiny {
+    min-width: 60px;
+    padding: 2px 12px;
+  }
+
+  &.small {
+    min-width: 100px;
+  }
+
+  &.large {
+    min-width: 250px;
+  }
+}

@@ -3,6 +3,7 @@ define(['app','text!templates/layout.html'], function (app, template) {
 
   var Layout = Backbone.Marionette.Layout.extend({
     regions : {
+      menu : '#menu',
       main : '#main',
       side : '#side'
     },
