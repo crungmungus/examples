@@ -1,0 +1,218 @@
+/**
+ * Most of the up-scaling can happen here at 480px.
+ * Lock everything at 640px there after and refactor these styles as we go along.
+ */
+@media only screen and (min-width: 480px) {
+	/**
+	 * Heading styles and general font overrides.
+	 */
+	h1 {
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 34px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+
+	/**
+	 * Header overrides.
+	 */
+	#header {
+		height: 90px;
+
+		.find, .menu {
+			padding: @base_gutter * 2;
+		}
+
+		.find {
+			width: 50px;
+
+			a {
+				width: 48px; height:48px;
+			}
+		}
+
+		.logo {
+			img {
+				width: 228px;
+				max-width: 228px;
+			}
+		}
+
+		.menu {
+			width: 50px;
+
+			a {
+				height: 40px;
+			}
+		}
+	}
+
+	/**
+	 * Offer listings.
+	 */
+	.offers-list {
+		.offer {
+			margin-bottom: 20px; padding-top: 20px;
+
+			.left {
+				width : 130px;
+			}
+
+			.info {
+				padding-left: 20px;
+
+				.expires {
+					font-size: 24px; 
+				}
+				
+				.details {
+					font-size: 30px; line-height: 30px;
+					display: inline-block;
+					max-height: 100px;
+					margin-top: @base_gutter;
+				}
+
+				.merchant {
+					font-size: 24px; line-height: 20px;
+					margin-top: @base_gutter * 2
+				}
+			}
+		}
+	}
+
+	/**
+	 * Main Navigation.
+	 */
+	#main-nav {
+		a {
+			font-size: 32px;
+		}
+	}
+
+	/**
+	 * Search.
+	 */
+	.search {
+		padding: @base_gutter * 2;
+
+		.input-wrapper {
+			height: 80px;
+
+			input[type="text"] {
+				font-size: 28px;
+			}
+		}
+
+		.near-me {
+			margin-top: @base_gutter;
+			font-size: 30px; line-height: 80px;
+
+			.icon-near-me {
+				position: absolute;
+				left: 0; top: 10px;
+				font-size: 60px;
+			}
+		}
+
+		button {
+			width: 80px;
+			font-size: 64px;
+		}
+	}
+
+	/**
+	 * Footer.
+	 */
+	#footer {
+		.goto-top {
+			font-size: 30px;
+			padding: @base_gutter * 2 0;
+		}
+
+		.links {
+			padding: @base_gutter * 2;
+			
+			a {
+				font-size: 20px;
+			}
+		}
+
+		.copy {
+			padding: @base_gutter * 2;
+		}
+
+		ul {
+			li {
+				padding: 10px;
+			}
+		}
+	}
+
+	/**
+	 * IOS slider rules.
+	 */
+	.iosslider {
+		height: 168px !important;
+
+		.slide {
+			width: 150px !important; height: 150px !important;
+		}
+	}
+
+	/**
+	 * General overrides.
+	 */
+	.exclusive {
+		font-size: 18px;
+	}
+
+	.view-all {
+		font-size: 34px;
+	}
+
+	.placeholder {
+		font-size: 28px;
+	}
+
+	::-webkit-input-placeholder {
+		.placeholder;
+	} 
+
+	:-moz-placeholder {
+		.placeholder;
+	} 
+
+	::-moz-placeholder{
+		.placeholder;
+	} 
+
+	:-ms-input-placeholder {  
+		.placeholder;
+	}	
+}
+
+@media only screen and (min-width: 640px) {
+	#header {
+		.logo {
+			img {
+				width: 228px;
+			}
+		}
+	}
+
+		/**
+	 * Footer.
+	 */
+	#footer {
+		.links {
+			a {
+				font-size: 30px;
+			}
+		}
+	}
+}

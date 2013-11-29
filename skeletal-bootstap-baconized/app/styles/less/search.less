@@ -1,0 +1,38 @@
+.search {
+	background-color: #e2e2e2;
+	padding: 10px;
+
+	.input-wrapper {
+		height: 40px;
+	}
+
+	input[type="text"] {
+		.no-border; .border-box;
+		display: block;
+		padding: 15px 3%;
+		margin-top: 10px;
+		width: 100%; height: inherit;
+	}
+
+	button {
+		position: absolute; top: 0; right: 0;
+		.no-border;
+		padding: 4px 5px;
+		background-color: @blue;
+		height: inherit; width: 40px;
+	}
+
+	.near-me {
+		text-align: center;
+		position: relative;
+		margin-top: 5px;
+		background-color: #f3f3f3;
+		display: block;
+
+		.icon-near-me {
+			position: absolute;
+			left: 0; top: 5px;
+			font-size: 30px;
+		}
+	}
+}

@@ -1,0 +1,61 @@
+.offers-list {
+	list-style : none;
+	margin : 0; padding: 0;
+	
+	.offer {
+		overflow: hidden;
+		display: table;
+		margin-bottom: 10px; padding-top: 10px;
+		border-top: 1px solid #f5f5f5;
+
+		.left {
+			vertical-align: top;
+			display: table-cell;
+			width : 65px;
+
+			img {
+				border: 1px solid #f5f5f5;
+			}
+		}
+
+		.info {
+			vertical-align: top;
+			display: table-cell;
+			padding-left: 10px;
+
+			.details {
+				display: inline-block;
+				max-height: 50px;
+				margin-top: 5px;
+			}
+
+			.merchant {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+.view-all {
+	display: block;
+	padding: 8px;
+
+	&.in-store {
+		background-color: @orange;
+	}
+
+	&.online {
+		background-color: @green;
+	}
+}
+
+.exclusive {
+	display: block;
+	width: 100%;
+	background-color: @orange;
+	margin-top: 10px;
+
+	&.online {
+		background-color: @green;
+	}
+}
