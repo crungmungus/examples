@@ -12,7 +12,8 @@ requirejs.config({
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
     backbone : 'vendor/backbone',
-    subroute : 'library/backbone.subroute'
+    subroute : 'library/backbone.subroute',
+    director : 'library/director'
   },
 
   shim: {
@@ -41,7 +42,6 @@ requirejs.config({
     },
     'library/utils' : {
       deps: ['underscore'],
-      exports: 'app.utils'
     },
     'app' : {
       deps : [
@@ -49,7 +49,8 @@ requirejs.config({
         'library/backbone.stickit',
         'library/backbone.subroute',
         'library/backbone.courier',
-        'library/marionette/backbone.marionette'
+        'library/marionette/backbone.marionette',
+        'director'
       ]
     }
   }
@@ -69,7 +70,11 @@ require(['app', 'library/utils', 'routers/router', 'views/layout'], function(app
   app.addInitializer(function(options){
     app.layout = new Layout();
     app.layout.render();
+
+
     app.utils = utils;
+
+    app.navigation = {};
 
     $('body').prepend(app.layout.el);
   });
