@@ -63,10 +63,11 @@ requirejs.config({
  *  we could initialize all of the presenters in one place and put them into
  *  the app namespace.
  */
-require(['app', 'library/utils', 'routers/router', 'views/layout'], function(app, utils, Router, Layout) {
+require(['app', 'library/utils', 'routers/router', 'views/layout', 'views/sidebar/main'], function(app, utils, Router, Layout, Sidebar) {
   'use strict';
 
-  app.addInitializer(function(options){
+  // General app stuff.
+  app.addInitializer(function(){
     app.layout = new Layout();
     app.layout.render();
     app.utils = utils;
@@ -74,7 +75,8 @@ require(['app', 'library/utils', 'routers/router', 'views/layout'], function(app
     $('body').prepend(app.layout.el);
   });
 
-  app.addInitializer(function(options){
+  // Crank up the router.
+  app.addInitializer(function(){
     new Router();
     Backbone.history.start();
   });
