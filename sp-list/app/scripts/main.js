@@ -49,8 +49,7 @@ requirejs.config({
         'library/backbone.stickit',
         'library/backbone.subroute',
         'library/backbone.courier',
-        'library/marionette/backbone.marionette',
-        'director'
+        'library/marionette/backbone.marionette'
       ]
     }
   }
@@ -70,11 +69,7 @@ require(['app', 'library/utils', 'routers/router', 'views/layout'], function(app
   app.addInitializer(function(options){
     app.layout = new Layout();
     app.layout.render();
-
-
     app.utils = utils;
-
-    app.navigation = {};
 
     $('body').prepend(app.layout.el);
   });

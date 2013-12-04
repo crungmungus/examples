@@ -3,9 +3,9 @@ define(function () {
 
   /**
    */
-  var WhatAppointment = Marionette.Application.extend({
+  var App = Marionette.Application.extend({
 
   });
 
-  return new WhatAppointment();
+  return new App();
 });
