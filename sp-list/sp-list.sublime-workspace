@@ -56,26 +56,52 @@
 	"buffers":
 	[
 		{
-			"file": "app/scripts/library/marionette/marionette.application.js",
-			"settings":
-			{
-				"buffer_size": 3347,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 2111,
+				"buffer_size": 2130,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/scripts/library/director.js",
+			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 341,
+				"buffer_size": 125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/app/views/sidebar/main.js",
+			"settings":
+			{
+				"buffer_size": 356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scripts/templates/sidebar/main.html",
+			"settings":
+			{
+				"buffer_size": 8,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "define(['app','views/home/main'], function (app, MainView) {\n  'use strict';\n\n  var Presenter = Backbone.Marionette.Controller.extend({\n    initialize : function (options) {\n      this.view = new MainView();\n      app.layout.main.show(this.view);\n    }\n  });\n\n  return Presenter;\n});\n\n",
+			"file": "app/scripts/app/presenters/home.main.js",
+			"file_size": 294,
+			"file_write_time": 130306497098800460,
+			"settings":
+			{
+				"buffer_size": 285,
 				"line_ending": "Windows"
 			}
 		}
@@ -104,6 +130,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/treatments.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/treatments.list.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/main.less",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.application.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/director.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/router.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
@@ -228,23 +261,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/scripts/library/marionette/marionette.application.js",
+					"file": "app/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 3347,
+						"buffer_size": 2130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3252,
-								3258
+								1997,
+								1997
 							]
 						],
 						"settings":
@@ -254,25 +287,51 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1391.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/scripts/main.js",
+					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 2111,
+						"buffer_size": 125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1331,
-								1331
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/app/views/sidebar/main.js",
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
 							]
 						],
 						"settings":
@@ -282,25 +341,76 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/scripts/library/director.js",
+					"buffer": 3,
+					"file": "app/scripts/templates/sidebar/main.html",
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 8,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								292,
-								292
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/app/presenters/home.main.js",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
 							]
 						],
 						"settings":
