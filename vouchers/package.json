@@ -1,9 +1,0 @@
-{
-  "name": "vouchers",
-  "version": "0.1.0",
-  "author": "crung <crungmungus@gmail.com>",
-  "description": "I can do better with less.",
-  "dependencies": {
-    "express": "~3.4.0"
-  }
-}
