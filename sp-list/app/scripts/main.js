@@ -75,6 +75,7 @@ function(app, utils, Router, Layout, Sidebar) {
   app.addInitializer(function(){
     app.layout = new Layout();
     app.layout.render();
+    app.utils = utils;
 
     $('body').prepend(app.layout.el);
   });
