@@ -63,7 +63,14 @@ requirejs.config({
  *  we could initialize all of the presenters in one place and put them into
  *  the app namespace.
  */
-require(['app', 'library/utils', 'routers/router', 'views/layout', 'views/sidebar/main'], function(app, utils, Router, Layout, Sidebar) {
+require([
+  'app',
+  'library/utils',
+  'routers/router',
+  'views/layout',
+  'views/sidebar/main'
+],
+function(app, utils, Router, Layout, Sidebar) {
   'use strict';
 
   // General app stuff.

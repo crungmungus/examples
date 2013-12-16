@@ -59,16 +59,17 @@
 			"file": "app/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 2130,
+				"buffer_size": 2142,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/scripts/app.js",
+			"contents": "var VideoView = Backbone.Marionette.ItemView.extend({\n        initialize: function(){\n            var that = this;\n            this.currentVideoIndex = 0;\n\n            Events.on(\"changeVideo\", function (target){\n                that.changeVideo(target.id);\n            });\n\n            _.bindAll(this);\n            var that = this;\n\n            this.player = new window.YT.Player('player', {\n                videoId: this.model.videos[0],\n                width: 700,\n                height: 400,\n                events: {\n                    'onStateChange': that.onPlayerStateChange\n                },\n                playerVars: {\n                    autoplay: 1,\n                    controls: 1,\n                    modestbranding: 1,\n                    rel: 0,\n                    showInfo: 0\n                }\n            });\n        },\n         onPlayerStateChange: function(event) {\n                if(event.data == 0 ){\n                    this.currentVideoIndex = this.currentVideoIndex + 1;\n                    this.player.loadVideoById(this.model.videos[this.currentVideoIndex]);                        \n         },\n\n        changeVideo: function(event){\n            var newIndex  = this.model.videos.indexOf(event);\n            this.currentVideoIndex = newIndex;\n            this.player.loadVideoById(event);\n        }\n    });",
 			"settings":
 			{
-				"buffer_size": 125,
-				"line_ending": "Windows"
+				"buffer_size": 1339,
+				"line_ending": "Windows",
+				"name": "var VideoView = Backbone.Marionette.ItemView.exten"
 			}
 		},
 		{
@@ -95,13 +96,10 @@
 			}
 		},
 		{
-			"contents": "define(['app','views/home/main'], function (app, MainView) {\n  'use strict';\n\n  var Presenter = Backbone.Marionette.Controller.extend({\n    initialize : function (options) {\n      this.view = new MainView();\n      app.layout.main.show(this.view);\n    }\n  });\n\n  return Presenter;\n});\n\n",
 			"file": "app/scripts/app/presenters/home.main.js",
-			"file_size": 294,
-			"file_write_time": 130306497098800460,
 			"settings":
 			{
-				"buffer_size": 285,
+				"buffer_size": 283,
 				"line_ending": "Windows"
 			}
 		}
@@ -130,6 +128,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/treatments.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/treatments.list.js",
@@ -137,7 +136,6 @@
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.application.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/director.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/router.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
@@ -261,7 +259,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -269,15 +267,15 @@
 					"file": "app/scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 2130,
+						"buffer_size": 2142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1997,
-								1997
+								2086,
+								2086
 							]
 						],
 						"settings":
@@ -287,30 +285,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 125,
+						"buffer_size": 1339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								70,
+								70
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "var VideoView = Backbone.Marionette.ItemView.exten",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -402,15 +402,15 @@
 					"file": "app/scripts/app/presenters/home.main.js",
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								283,
+								283
 							]
 						],
 						"settings":
