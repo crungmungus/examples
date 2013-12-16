@@ -1,4 +1,4 @@
-define(['app', 'text!templates/sidebar/main.html'], function (app, template) {
+define(['app', 'text!templates/navbar/main.html'], function (app, template) {
   'use strict';
 
   var View = Backbone.View.extend({
@@ -6,7 +6,7 @@ define(['app', 'text!templates/sidebar/main.html'], function (app, template) {
 
     },
 
-    className : 'col-xs-6 col-sm-3',
+    className : 'navbar navbar-fixed-top navbar-inverse',
 
     role : 'navigation',
 

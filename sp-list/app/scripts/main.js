@@ -1,5 +1,4 @@
 /*jshint browser: true, devel: true, plusplus: true, white: false, indent: 2 */
-
 requirejs.config({
   paths: {
     text: 'vendor/text',
@@ -12,8 +11,7 @@ requirejs.config({
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
     backbone : 'vendor/backbone',
-    subroute : 'library/backbone.subroute',
-    director : 'library/director'
+    subroute : 'library/backbone.subroute'
   },
 
   shim: {
@@ -77,7 +75,6 @@ function(app, utils, Router, Layout, Sidebar) {
   app.addInitializer(function(){
     app.layout = new Layout();
     app.layout.render();
-    app.utils = utils;
 
     $('body').prepend(app.layout.el);
   });
