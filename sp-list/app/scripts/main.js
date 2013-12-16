@@ -11,7 +11,8 @@ requirejs.config({
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
     backbone : 'vendor/backbone',
-    subroute : 'library/backbone.subroute'
+    subroute : 'library/backbone.subroute',
+    bootstrap : 'vendor/bootstrap'
   },
 
   shim: {
@@ -21,6 +22,9 @@ requirejs.config({
     'backbone': {
       deps: ['underscore', 'jquery'],
       exports: 'Backbone'
+    },
+    'bootstrap' : {
+      deps: ['jquery']
     },
     'library/marionette/backbone.marionette': {
       deps: ['backbone'],
@@ -44,6 +48,7 @@ requirejs.config({
     'app' : {
       deps : [
         'backbone',
+        'bootstrap',
         'library/backbone.stickit',
         'library/backbone.subroute',
         'library/backbone.courier',
