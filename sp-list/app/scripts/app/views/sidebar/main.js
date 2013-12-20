@@ -6,8 +6,6 @@ define(['app', 'text!templates/sidebar/main.html'], function (app, template) {
 
     },
 
-    className : 'col-xs-6 col-sm-3',
-
     role : 'navigation',
 
     initialize : function () {
