@@ -24,6 +24,7 @@ var View = Backbone.View.extend({
   bindings : {
     '[name=firstname]' : {
       observe : 'firstname',      
+      events : ['blur'],
       setOptions: {
         validate: true
       }
@@ -58,10 +59,7 @@ var View = Backbone.View.extend({
   render : function () {
     this.$el.html($('#user-form-template').html());
 
-    var fields = this.$('input');
-    _.each(fields, function (field) {
-      
-    }, this);
+    this.stickit();
 
     return this.$el;
   }
