@@ -1,75 +1,74 @@
-_.mixin({
-  'exists': function (obj) {
-      return obj != null;
+var UserModel = Backbone.Model.extend({
+  defaults : {
+    firstname : 'james',
+    lastname : 'gardner',
+    email : 'james@gardner.com'
   },
 
-  /**
-   */
-  'isTruthy': function (obj) {
-      return (obj !== false) && _.exists(obj);
+  validation : {
+    firstname : {
+      required: true
+    }
   }
 });
 
-/**
- * Object Validation example from "Functional JavaScript, Page 82."
- */
-function always(val) {
-  return function() {
-    return val;
-  };
-};
+var View = Backbone.View.extend({
+  tagName : 'form',
 
-function checker() {
-  var validators = _.toArray(arguments);
+  events : {
+    'submit' : 'onFormSubmit',
+    'blur input' : 'onInputBlur'
+  },  
 
-  console.log(validators);
-
-  return function(obj) {
-    return _.reduce(validators, function(errs, check) {
-      if (check(obj)) {
-        return errs
-      } else {
-        return _.chain(errs).push(check.message).value();
+  // Parse bindings auto-magically.
+  bindings : {
+    '[name=firstname]' : {
+      observe : 'firstname',      
+      setOptions: {
+        validate: true
       }
-    }, []);
-  };
-}
+    }
+  },     
 
-/**
- * Wraps around an object so as not to overwrite any existing properties.
- */
-function validator(message, fun) {
-  var f = function() {
-    return fun.apply(fun, arguments);
-  };
+  initialize : function () {
+    Backbone.Validation.bind(this);
 
-  f['message'] = message;
-  return f;
-}
+    this.listenTo(this.model, 'validated:valid', this.onValid);
+    this.listenTo(this.model, 'validated:invalid', this.onInvalid);
+  },
 
-// Example from Page 83.
-var gonnaFail = checker(validator("ZOMG!", always(false)));
-console.log(
-  // gonnaFail(100)
-);
+  onFormSubmit : function () {
+    var errors;
 
-var isValidString = function (msg) {
-  return validator(msg, _.isString)
-}
+    if(this.model.isValid(true)) {
+      this.model.save();
+    }
 
-var isValidNumber = function (msg) {
-  return validator(msg, _.isNumber)
-}
+    e.preventDefault();
+  },
 
-// Set up a checker. Bit of a nasty interface.
-var t = checker(
-  isValidString('string fail'),
-  isValidNumber('number fail')
-).call(null, 'dfsdfsdfsd');
+  onValid : function () {
+    console.log('enable save button');
+  },
 
-console.log(
-  t
-);
+  onInvalid : function () {
+    console.log('disable save button');
+  },
 
+  render : function () {
+    this.$el.html($('#user-form-template').html());
 
-// Finally plug something into backbone's validate method.
+    var fields = this.$('input');
+    _.each(fields, function (field) {
+      
+    }, this);
+
+    return this.$el;
+  }
+});
+
+v = new View({
+  model : new UserModel()
+})
+
+$('body').append(v.render());

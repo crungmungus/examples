@@ -2,16 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Validating Objects</title>
+    <title>Basic Form Validation - Prototype</title>
     <link rel="stylesheet" href="styles/main.min.css" type="text/css" />
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
   </head>
   <body>
+    <script type="text/template" id="user-form-template">
+      <label for="firstname">
+        First Name: 
+        <input type="text" name="firstname" placeholder="James Gardner"  />
+      </label>
+      <input type="submit" name="submit" value="save" />
+    </script>
+
     <!-- Framework Dependencies -->
   	<script src="scripts/vendor/jquery-1.10.2.min.js"></script>
     <script src="scripts/vendor/underscore-min.js"></script>
   	<script src="scripts/vendor/backbone-min.js"></script>
-
+    <script src="scripts/vendor/backbone-validation.js"></script>
+    <script src="scripts/vendor/backbone.stickit.js"></script>
+    
     <!-- Bootstrap -->
   	<script src="scripts/app.js"></script>
   </body>
